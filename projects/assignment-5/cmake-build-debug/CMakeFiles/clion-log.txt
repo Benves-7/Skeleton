@@ -1,0 +1,62 @@
+/home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benves-7/Documents/School/lab-env/projects/assignment-5
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- broken
+CMake Error at /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/benves-7/Documents/School/lab-env/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_8fa2c/fast 
+    /usr/bin/make -f CMakeFiles/cmTC_8fa2c.dir/build.make CMakeFiles/cmTC_8fa2c.dir/build
+    make[1]: Entering directory '/home/benves-7/Documents/School/lab-env/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_8fa2c.dir/testCCompiler.c.o
+    /usr/bin/cc    -o CMakeFiles/cmTC_8fa2c.dir/testCCompiler.c.o   -c /home/benves-7/Documents/School/lab-env/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    Linking C executable cmTC_8fa2c
+    /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa2c.dir/link.txt --verbose=1
+    /usr/bin/cc      -rdynamic CMakeFiles/cmTC_8fa2c.dir/testCCompiler.c.o  -o cmTC_8fa2c 
+    /usr/bin/ld: cannot find Scrt1.o: No such file or directory
+    /usr/bin/ld: cannot find crti.o: No such file or directory
+    collect2: error: ld returned 1 exit status
+    CMakeFiles/cmTC_8fa2c.dir/build.make:86: recipe for target 'cmTC_8fa2c' failed
+    make[1]: *** [cmTC_8fa2c] Error 1
+    make[1]: Leaving directory '/home/benves-7/Documents/School/lab-env/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:121: recipe for target 'cmTC_8fa2c/fast' failed
+    make: *** [cmTC_8fa2c/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:5 (PROJECT)
+
+
+CMake Error at CMakeLists.txt:5 (PROJECT):
+  No CMAKE_CXX_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.14)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "/home/benves-7/Documents/School/lab-env/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/benves-7/Documents/School/lab-env/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeError.log".
