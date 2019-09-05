@@ -1,18 +1,4 @@
 /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/benves-7/Documents/School/lab-env
--- The C compiler identification is GNU 7.4.0
--- The CXX compiler identification is GNU 7.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 CMake Warning (dev) at /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/FindOpenGL.cmake:275 (message):
   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
@@ -45,7 +31,6 @@ CMake Deprecation Warning at exts/glfw/CMakeLists.txt:10 (cmake_policy):
 
 -- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
 -- Using X11 for window creation
--- Found X11: /usr/include   
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/benves-7/Documents/School/lab-env/Build

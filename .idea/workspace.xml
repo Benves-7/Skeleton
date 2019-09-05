@@ -2,20 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="gscept_lab_env" targetName="example" />
-      <config projectName="gscept_lab_env" targetName="ImGuiExample" />
       <config projectName="gscept_lab_env" targetName="assignment-6" />
+      <config projectName="gscept_lab_env" targetName="core" />
+      <config projectName="gscept_lab_env" targetName="assignment-1" />
+      <config projectName="gscept_lab_env" targetName="imgui" />
+      <config projectName="gscept_lab_env" targetName="ImGuiExample" />
       <config projectName="gscept_lab_env" targetName="assignment-5" />
       <config projectName="gscept_lab_env" targetName="assignment-4" />
       <config projectName="gscept_lab_env" targetName="assignment-3" />
       <config projectName="gscept_lab_env" targetName="assignment-2" />
-      <config projectName="gscept_lab_env" targetName="assignment-1" />
-      <config projectName="gscept_lab_env" targetName="glfw" />
-      <config projectName="gscept_lab_env" targetName="imgui" />
-      <config projectName="gscept_lab_env" targetName="core" />
       <config projectName="gscept_lab_env" targetName="nanovg" />
-      <config projectName="gscept_lab_env" targetName="glew" />
+      <config projectName="gscept_lab_env" targetName="example" />
       <config projectName="gscept_lab_env" targetName="render" />
+      <config projectName="gscept_lab_env" targetName="glfw" />
+      <config projectName="gscept_lab_env" targetName="glew" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -24,7 +24,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ce147d-99ad-4cdb-b0cb-bbeadeec7b53" name="Default Changelist" comment="" />
+    <list default="true" id="08ce147d-99ad-4cdb-b0cb-bbeadeec7b53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/clion-log.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +40,14 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QN605ib6KlIjbgdlejjwFhGz8m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Build/projects/assignment-5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -165,6 +170,8 @@
       <updated>1567598480561</updated>
       <workItem from="1567598481708" duration="5170000" />
       <workItem from="1567604151677" duration="32000" />
+      <workItem from="1567605127614" duration="80000" />
+      <workItem from="1567683015361" duration="1544000" />
     </task>
     <servers />
   </component>
