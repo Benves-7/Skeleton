@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
-// main.cc
-// (C) 2015-2018 Individual contributors, see AUTHORS file
+// exampleapp.cc
+// (C) 2015-2018 Individual contributors, see AUTHORS file (Benjamin Vesterlund)
 //------------------------------------------------------------------------------
 #include "config.h"
 #include "exampleapp.h"
