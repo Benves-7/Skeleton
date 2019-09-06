@@ -9,6 +9,7 @@
 #include <sys/sysinfo.h>
 #include <math.h>
 #include <fstream>
+#include <wait.h>
 
 void BigParser()
 {
@@ -23,34 +24,9 @@ void BigParser()
         }
     }
 }
-
-void fork_entry(int num)
-{
-    pid_t ParentPID = getpid();
-
-    for (int k = 0; k < num; ++k)
-    {
-        pid_t pid = fork();
-        if (getpid() != ParentPID)
-        {
-           // child process
-           std::cout << "PID: " << getpid() << std::endl;
-           double value;
-           for (unsigned int i = 1; i <= 50000; ++i)
-           {
-               for (unsigned int j = 1; j <= i; ++j)
-               {
-                   value += sqrt(i*j);
-               }
-           }
-           std::cout << "SUM: " << value << std::endl;
-           return;
-        }
-    }
-}
-
 void calcAndShutdown()
 {
+    std::cout << "PID: " << getpid() << std::endl;
     double value;
     for (unsigned int i = 1; i <= 50000; ++i)
     {
@@ -59,29 +35,47 @@ void calcAndShutdown()
             value += sqrt(i*j);
         }
     }
-    std::cout << "SUM: " << value << std::endl;
+    std::cout << "PID " << getpid() << " got SUM: " << value << std::endl;
     return;
+}
+void fork_entry(int num)
+{
+    pid_t ParentPID = getpid();
+    for (int k = 0; k < num; ++k)
+    {
+        pid_t pid = fork();
+        if (getpid() != ParentPID)
+        {
+            // child process
+            calcAndShutdown();
+            kill(getpid(), SIGTERM);
+        }
+    }
+    for (int i = 0; i < num; ++i)
+    {
+        wait(NULL);
+    }
 }
 void thread_entry(int num)
 {
+    std::thread threads[num];
     for (int i = 0; i < num; ++i)
     {
-        std::thread t1(&calcAndShutdown);
-        t1.detach();
+        threads[i] = std::thread(calcAndShutdown);
     }
+    for (int j = 0; j < num; ++j)
+    {
+        threads[j].join();
+    }
+
 }
 
 int main()
 {
-    pid_t ParentPID = getpid();
-    std::cout << "Start" << std::endl;
-
     while (true)
     {
         int num;
         std::string input;
-        if (getpid() != ParentPID)
-            break;
         std::cout << "Input: ";
         std::getline(std::cin, input);
         if (input == "-i")
@@ -97,7 +91,11 @@ int main()
             struct sysinfo si;
             sysinfo (&si);
             /* Summarize interesting values. */
-            printf ("system uptime : %ld days, %ld:%02ld:%02ld\n", si.uptime / day, (si.uptime % day) / hour, (si.uptime % hour) / minute, si.uptime % minute);
+            printf ("system uptime : %ld days, %ld:%02ld:%02ld\n",
+                    (si.uptime / day),
+                    (si.uptime % day) / hour,
+                    (si.uptime % hour) / minute,
+                    (si.uptime % minute));
             printf ("total RAM   : %5.1f MB\n", si.totalram / megabyte);
             printf ("free RAM   : %5.1f MB\n", si.freeram / megabyte);
             printf ("process count : %d\n", si.procs);

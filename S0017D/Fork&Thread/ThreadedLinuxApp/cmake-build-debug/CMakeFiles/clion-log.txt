@@ -1,8 +1,4 @@
 /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benves-7/CLionProjects/ThreadedLinuxApp
 -- Configuring done
-CMake Error at CMakeLists.txt:6 (add_executable):
-  CXX_STANDARD is set to invalid value '14;-pthread'
-
-
 -- Generating done
 -- Build files have been written to: /home/benves-7/CLionProjects/ThreadedLinuxApp/cmake-build-debug
