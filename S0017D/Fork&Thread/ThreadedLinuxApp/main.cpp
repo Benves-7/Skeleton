@@ -14,14 +14,22 @@
 void BigParser()
 {
     std::string line;
+    bool model = false, modelname = false;
     std::ifstream file ("/proc/cpuinfo");
     while (getline(file, line))
     {
         if (line.substr(0, 10) == "model name")
         {
             std::cout << "Model name: " << line.substr(13) << std::endl;
-            break;
+            modelname = true;
         }
+        else if (line.substr(0, 5) == "model")
+        {
+            std::cout << "Model: " << line.substr(8) << std::endl;
+            model = true;
+        }
+        if (model&&modelname)
+            break;
     }
 }
 void calcAndShutdown()
