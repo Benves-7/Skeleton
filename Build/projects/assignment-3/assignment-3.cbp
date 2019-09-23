@@ -18,7 +18,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-3">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/assignment-3" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -40,7 +40,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-3/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/assignment-3" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -68,13 +68,13 @@
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/MathLib.h">
 			<Option target="assignment-3"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cc">
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cpp">
 			<Option target="assignment-3"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.h">
 			<Option target="assignment-3"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cc">
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cpp">
 			<Option target="assignment-3"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/meshresource.cpp">

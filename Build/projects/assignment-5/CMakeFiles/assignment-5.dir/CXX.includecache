@@ -31,6 +31,8 @@ GLFW/glfw3.h
 -
 nanovg.h
 -
+config.h
+-
 
 ../exts/glew/include/GL/glew.h
 stddef.h

@@ -70,31 +70,31 @@ projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-3.dir/code/MathLib.cpp.s"
 	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/MathLib.cpp -o CMakeFiles/assignment-3.dir/code/MathLib.cpp.s
 
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.o: projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.o: ../projects/assignment-3/code/exampleapp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.o"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-3.dir/code/exampleapp.cc.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cc
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o: projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o: ../projects/assignment-3/code/exampleapp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o"
+	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cpp
 
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-3.dir/code/exampleapp.cc.i"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cc > CMakeFiles/assignment-3.dir/code/exampleapp.cc.i
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-3.dir/code/exampleapp.cpp.i"
+	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cpp > CMakeFiles/assignment-3.dir/code/exampleapp.cpp.i
 
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-3.dir/code/exampleapp.cc.s"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cc -o CMakeFiles/assignment-3.dir/code/exampleapp.cc.s
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-3.dir/code/exampleapp.cpp.s"
+	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cpp -o CMakeFiles/assignment-3.dir/code/exampleapp.cpp.s
 
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.o: projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.o: ../projects/assignment-3/code/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.o"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-3.dir/code/main.cc.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cc
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.o: projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.o: ../projects/assignment-3/code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.o"
+	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-3.dir/code/main.cpp.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cpp
 
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-3.dir/code/main.cc.i"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cc > CMakeFiles/assignment-3.dir/code/main.cc.i
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-3.dir/code/main.cpp.i"
+	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cpp > CMakeFiles/assignment-3.dir/code/main.cpp.i
 
-projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-3.dir/code/main.cc.s"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cc -o CMakeFiles/assignment-3.dir/code/main.cc.s
+projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-3.dir/code/main.cpp.s"
+	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cpp -o CMakeFiles/assignment-3.dir/code/main.cpp.s
 
 projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o: projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make
 projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o: ../projects/assignment-3/code/meshresource.cpp
@@ -125,43 +125,43 @@ projects/assignment-3/CMakeFiles/assignment-3.dir/code/textureresource.cpp.s: cm
 # Object files for target assignment-3
 assignment__3_OBJECTS = \
 "CMakeFiles/assignment-3.dir/code/MathLib.cpp.o" \
-"CMakeFiles/assignment-3.dir/code/exampleapp.cc.o" \
-"CMakeFiles/assignment-3.dir/code/main.cc.o" \
+"CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o" \
+"CMakeFiles/assignment-3.dir/code/main.cpp.o" \
 "CMakeFiles/assignment-3.dir/code/meshresource.cpp.o" \
 "CMakeFiles/assignment-3.dir/code/textureresource.cpp.o"
 
 # External object files for target assignment-3
 assignment__3_EXTERNAL_OBJECTS =
 
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.o
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.o
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.o
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/textureresource.cpp.o
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/build.make
-projects/assignment-3/assignment-3: engine/core/libcore.a
-projects/assignment-3/assignment-3: engine/render/librender.a
-projects/assignment-3/assignment-3: engine/core/libcore.a
-projects/assignment-3/assignment-3: engine/render/librender.a
-projects/assignment-3/assignment-3: exts/glew/libglew.a
-projects/assignment-3/assignment-3: exts/glfw/src/libglfw3.a
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/librt.so
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/libm.so
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/libX11.so
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/libXrandr.so
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/libXinerama.so
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
-projects/assignment-3/assignment-3: /usr/lib/x86_64-linux-gnu/libXcursor.so
-projects/assignment-3/assignment-3: exts/libimgui.a
-projects/assignment-3/assignment-3: exts/libnanovg.a
-projects/assignment-3/assignment-3: exts/libimgui.a
-projects/assignment-3/assignment-3: exts/libnanovg.a
-projects/assignment-3/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable assignment-3"
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.o
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.o
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/code/textureresource.cpp.o
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/build.make
+../bin/assignment-3: engine/core/libcore.a
+../bin/assignment-3: engine/render/librender.a
+../bin/assignment-3: engine/core/libcore.a
+../bin/assignment-3: engine/render/librender.a
+../bin/assignment-3: exts/glew/libglew.a
+../bin/assignment-3: exts/glfw/src/libglfw3.a
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/librt.so
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/libm.so
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/libX11.so
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/libXrandr.so
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/libXinerama.so
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+../bin/assignment-3: /usr/lib/x86_64-linux-gnu/libXcursor.so
+../bin/assignment-3: exts/libimgui.a
+../bin/assignment-3: exts/libnanovg.a
+../bin/assignment-3: exts/libimgui.a
+../bin/assignment-3: exts/libnanovg.a
+../bin/assignment-3: projects/assignment-3/CMakeFiles/assignment-3.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../bin/assignment-3"
 	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-projects/assignment-3/CMakeFiles/assignment-3.dir/build: projects/assignment-3/assignment-3
+projects/assignment-3/CMakeFiles/assignment-3.dir/build: ../bin/assignment-3
 
 .PHONY : projects/assignment-3/CMakeFiles/assignment-3.dir/build
 

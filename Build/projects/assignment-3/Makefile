@@ -152,59 +152,59 @@ code/MathLib.cpp.s:
 	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.s
 .PHONY : code/MathLib.cpp.s
 
-code/exampleapp.o: code/exampleapp.cc.o
+code/exampleapp.o: code/exampleapp.cpp.o
 
 .PHONY : code/exampleapp.o
 
 # target to build an object file
-code/exampleapp.cc.o:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.o
-.PHONY : code/exampleapp.cc.o
+code/exampleapp.cpp.o:
+	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o
+.PHONY : code/exampleapp.cpp.o
 
-code/exampleapp.i: code/exampleapp.cc.i
+code/exampleapp.i: code/exampleapp.cpp.i
 
 .PHONY : code/exampleapp.i
 
 # target to preprocess a source file
-code/exampleapp.cc.i:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.i
-.PHONY : code/exampleapp.cc.i
+code/exampleapp.cpp.i:
+	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.i
+.PHONY : code/exampleapp.cpp.i
 
-code/exampleapp.s: code/exampleapp.cc.s
+code/exampleapp.s: code/exampleapp.cpp.s
 
 .PHONY : code/exampleapp.s
 
 # target to generate assembly for a file
-code/exampleapp.cc.s:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.s
-.PHONY : code/exampleapp.cc.s
+code/exampleapp.cpp.s:
+	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.s
+.PHONY : code/exampleapp.cpp.s
 
-code/main.o: code/main.cc.o
+code/main.o: code/main.cpp.o
 
 .PHONY : code/main.o
 
 # target to build an object file
-code/main.cc.o:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.o
-.PHONY : code/main.cc.o
+code/main.cpp.o:
+	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.o
+.PHONY : code/main.cpp.o
 
-code/main.i: code/main.cc.i
+code/main.i: code/main.cpp.i
 
 .PHONY : code/main.i
 
 # target to preprocess a source file
-code/main.cc.i:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.i
-.PHONY : code/main.cc.i
+code/main.cpp.i:
+	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.i
+.PHONY : code/main.cpp.i
 
-code/main.s: code/main.cc.s
+code/main.s: code/main.cpp.s
 
 .PHONY : code/main.s
 
 # target to generate assembly for a file
-code/main.cc.s:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.s
-.PHONY : code/main.cc.s
+code/main.cpp.s:
+	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-3/CMakeFiles/assignment-3.dir/build.make projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.s
+.PHONY : code/main.cpp.s
 
 code/meshresource.o: code/meshresource.cpp.o
 

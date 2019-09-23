@@ -18,7 +18,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-1">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-1/assignment-1" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -40,7 +40,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-1/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-1/assignment-1" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -65,13 +65,40 @@
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h">
 			<Option target="assignment-1"/>
 		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/camera.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/dielectric.h">
+			<Option target="assignment-1"/>
+		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.cc">
 			<Option target="assignment-1"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h">
 			<Option target="assignment-1"/>
 		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable_list.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/lambertian.h">
+			<Option target="assignment-1"/>
+		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/main.cc">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/metal.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/ray.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h">
 			<Option target="assignment-1"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/CMakeLists.txt">

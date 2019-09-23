@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment-4.dir/code/MathLib.cpp.o"
   "CMakeFiles/assignment-4.dir/code/exampleapp.cc.o"
   "CMakeFiles/assignment-4.dir/code/main.cc.o"
-  "assignment-4.pdb"
-  "assignment-4"
+  "../../../bin/assignment-4.pdb"
+  "../../../bin/assignment-4"
 )
 
 # Per-language clean rules from dependency scanning.

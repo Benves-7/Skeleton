@@ -1,3 +1,0 @@
-/home/benves-7/CLionProjects/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/benves-7/CLionProjects/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir
-/home/benves-7/CLionProjects/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment-2.dir/code/main.cc.o"
   "CMakeFiles/assignment-2.dir/code/meshresource.cpp.o"
   "CMakeFiles/assignment-2.dir/code/textureresource.cpp.o"
-  "assignment-2.pdb"
-  "assignment-2"
+  "../../../bin/assignment-2.pdb"
+  "../../../bin/assignment-2"
 )
 
 # Per-language clean rules from dependency scanning.

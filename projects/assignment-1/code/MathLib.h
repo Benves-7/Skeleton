@@ -32,118 +32,15 @@ public:
 	bool operator>(Vector2D& rhs);
 	bool operator>=(Vector2D& rhs);
 	bool operator!=(Vector2D& rhs);
+	float& operator[] (const int x);
+	float operator[] (const int x) const;
+
 
 private:
 
 	float cord[2];
 
 };
-//Konstructor
-Vector2D::Vector2D()
-{
-
-}
-Vector2D::Vector2D(float x, float y)
-{
-	cord[0] = x;
-	cord[1] = y;
-}
-
-Vector2D::~Vector2D()
-{
-}
-
-//Functions
-void Vector2D::Set(float x, float y)
-{
-	cord[0] = x;
-	cord[1] = y;
-}
-void Vector2D::SetX(float x)
-{
-	cord[0] = x;
-}
-void Vector2D::SetY(float y)
-{
-	cord[1] = y;
-}
-float Vector2D::Norm()
-{
-	return (sqrt(pow(cord[0], 2) + pow(cord[1], 2)));
-}
-
-//Operators
-float Vector2D::operator*(Vector2D rhs)
-{
-	return (this->GetX() * rhs.GetX() + this->GetY() * rhs.GetY());
-}
-void Vector2D::operator*(float rhs)
-{
-	this->cord[0] = this->cord[0] * rhs;
-	this->cord[1] = this->cord[1] * rhs;
-}
-Vector2D Vector2D::operator+(Vector2D& rhs)
-{
-	Vector2D temp((this->GetX() + rhs.GetX()), (this->GetY() + rhs.GetY()));
-	return temp;
-}
-Vector2D Vector2D::operator-(Vector2D& rhs)
-{
-	return Vector2D((this->GetX() - rhs.GetX()), (this->GetY() - rhs.GetY()));
-}
-void Vector2D::operator=(Vector2D& rhs)
-{
-	this->cord[0] = rhs.GetX();
-	this->cord[1] = rhs.GetY();
-}
-bool Vector2D::operator==(Vector2D& rhs)
-{
-	if (this->GetX() == rhs.GetX() && this->GetY() == rhs.GetY())
-	{
-		return true;
-	}
-	return false;
-}
-bool Vector2D::operator!=(Vector2D& rhs)
-{
-	if (this->GetX() != rhs.GetX() || this->GetY() != rhs.GetY())
-	{
-		return true;
-	}
-	return false;
-}
-bool Vector2D::operator<(Vector2D& rhs)
-{ // is this smaller then rhs
-	if (this->GetX() < rhs.GetX() && this->GetY() < rhs.GetY())
-	{
-		return true;
-	}
-	return false;
-}
-bool Vector2D::operator<=(Vector2D& rhs)
-{ // is this smaller then rhs
-	if (this->GetX() <= rhs.GetX() && this->GetY() <= rhs.GetY())
-	{
-		return true;
-	}
-	return false;
-}
-bool Vector2D::operator>(Vector2D& rhs)
-{ // is this bigger then rhs
-	if (this->GetX() > rhs.GetX() && this->GetY() > rhs.GetY())
-	{
-		return true;
-	}
-	return false;
-}
-bool Vector2D::operator>=(Vector2D& rhs)
-{ // is this bigger then rhs
-	if (this->GetX() >= rhs.GetX() && this->GetY() >= rhs.GetY())
-	{
-		return true;
-	}
-	return false;
-}
 #pragma endregion
 
 #pragma region Matrix2D
@@ -153,16 +50,16 @@ public:
 
 	//Konstructorer
 	Matrix2D();												// skapar en identitetsmatris
-	Matrix2D(float x1, float y1, float x2, float y2);		// skapar en matris med fyra värden
-	Matrix2D(Vector2D x, Vector2D y);							// skapar en matris med två vectorer (sparas på samma sätt..)
+	Matrix2D(float x1, float y1, float x2, float y2);		// skapar en matris med fyra vï¿½rden
+	Matrix2D(Vector2D x, Vector2D y);							// skapar en matris med tvï¿½ vectorer (sparas pï¿½ samma sï¿½tt..)
 	Matrix2D(const Matrix2D& a);							// skapar en kopia av matrisen.
 	Matrix2D(float degrees);
 
 	~Matrix2D();
 
 	//Funktioner
-	void Set(float x1, float y1, float x2, float y2);		// sätter värden med fyra värden
-	void Set(Vector2D x, Vector2D y);							// sätter värden med två vectorer
+	void Set(float x1, float y1, float x2, float y2);		// sï¿½tter vï¿½rden med fyra vï¿½rden
+	void Set(Vector2D x, Vector2D y);							// sï¿½tter vï¿½rden med tvï¿½ vectorer
 	void Set(float degrees);
 	void Rot(float degrees);
 	void Transponat();
@@ -174,7 +71,7 @@ public:
 	inline void Print() const { printf("\n Matrix = %0.1f : %0.1f \n          %0.1f : %0.1f\n", matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]); }
 
 	//Operatorer
-	void operator=(Matrix2D& rhs);							//kolla (matrix = matrix) = kopia med sammam värden. 
+	void operator=(Matrix2D& rhs);							//kolla (matrix = matrix) = kopia med sammam vï¿½rden. 
 	void operator*(float rhs);								//kolla (matrix * 4)
 	Vector2D operator*(Vector2D rhs);							//kolla (matrix * vector)
 	Matrix2D operator*(Matrix2D rhs);
@@ -184,111 +81,50 @@ private:
 	float matrix[2][2];
 
 };
-
-//Konstructor
-Matrix2D::Matrix2D()
-{
-	matrix[0][0] = 1.0f;
-	matrix[0][1] = 0.0f;
-	matrix[1][0] = 0.0f;
-	matrix[1][1] = 1.0f;
-}
-Matrix2D::Matrix2D(float x1, float y1, float x2, float y2)
-{
-	matrix[0][0] = x1;
-	matrix[0][1] = y1;
-	matrix[1][0] = x2;
-	matrix[1][1] = y2;
-}
-Matrix2D::Matrix2D(Vector2D x, Vector2D y)
-{
-	matrix[0][0] = x.GetX();
-	matrix[0][1] = x.GetY();
-	matrix[1][0] = y.GetX();
-	matrix[1][1] = y.GetY();
-}
-Matrix2D::Matrix2D(const Matrix2D& rhs)
-{
-	matrix[0][0] = rhs.GetX1();
-	matrix[0][1] = rhs.GetY1();
-	matrix[1][0] = rhs.GetX2();
-	matrix[1][1] = rhs.GetY2();
-}
-Matrix2D::Matrix2D(float degrees)
-{
-	matrix[0][0] = cos(degrees);
-	matrix[0][1] = -sin(degrees);
-	matrix[1][0] = sin(degrees);
-	matrix[1][1] = cos(degrees);
-}
-
-Matrix2D::~Matrix2D()
-{
-}
-
-//Functions
-void Matrix2D::Set(float x1, float y1, float x2, float y2)
-{
-	matrix[0][0] = x1;
-	matrix[0][1] = y1;
-	matrix[1][0] = x2;
-	matrix[1][1] = y2;
-}
-void Matrix2D::Set(Vector2D x, Vector2D y)
-{
-	matrix[0][0] = x.GetX();
-	matrix[0][1] = x.GetY();
-	matrix[1][0] = y.GetX();
-	matrix[1][1] = y.GetY();
-}
-void Matrix2D::Set(float degrees)
-{
-	matrix[0][0] = cos(degrees);
-	matrix[0][1] = -sin(degrees);
-	matrix[1][0] = sin(degrees);
-	matrix[1][1] = cos(degrees);
-}
-void Matrix2D::Rot(float degrees)
-{
-	matrix[0][0] = matrix[0][0] * cos(degrees);
-	matrix[0][1] = matrix[0][1] * -sin(degrees);
-	matrix[1][0] = matrix[1][0] * sin(degrees);
-	matrix[1][1] = matrix[1][1] * cos(degrees);
-}
-void Matrix2D::Transponat()
-{
-	Matrix2D temp;
-	temp = *this;
-	this->matrix[0][1] = temp.matrix[1][0];
-	this->matrix[1][0] = temp.matrix[0][1];
-}
-//void Matrix2D::Get and Print is Inline Functions in MathLib.h
-
-//Operatorer
-void Matrix2D::operator=(Matrix2D& rhs)
-{
-	this->Set(rhs.GetX1(), rhs.GetY1(), rhs.GetX2(), rhs.GetY2());
-}
-void Matrix2D::operator*(float rhs)
-{
-	this->matrix[0][0] = this->GetX1() * rhs;
-	this->matrix[0][1] = this->GetY1() * rhs;
-	this->matrix[1][0] = this->GetX2() * rhs;
-	this->matrix[1][1] = this->GetY2() * rhs;
-}
-Vector2D Matrix2D::operator*(Vector2D rhs)
-{
-	Vector2D temp(this->GetX1() * rhs.GetX() + this->GetY1() * rhs.GetY(),  //<- Xcord, 
-		this->GetX2() * rhs.GetX() + this->GetY2() * rhs.GetY()); //<- Ycord
-	return temp;
-}
-Matrix2D Matrix2D::operator*(Matrix2D rhs)
-{
-	Matrix2D temp(((this->matrix[0][0] * rhs.matrix[0][0]) + (this->matrix[0][1] * rhs.matrix[1][0])),
-		((this->matrix[0][0] * rhs.matrix[0][1]) + (this->matrix[0][1] * rhs.matrix[1][1])), /* */ ((this->matrix[1][0] * rhs.matrix[0][0]) + (this->matrix[1][1] * rhs.matrix[1][0])), /* */ ((this->matrix[1][0] * rhs.matrix[0][1]) + (this->matrix[1][1] * rhs.matrix[1][1])));
-	return temp;
-}
 #pragma endregion
+
+/*#pragma region Vector3D
+class Vector3D
+{
+public:
+    Vector3D(){}
+    Vector3D(float e0, float e1, float e2) {e[0] = e0; e[1] = e1; e[2] = e2;}
+    inline float x() const {return e[0];}
+    inline float y() const {return e[1];}
+    inline float z() const {return e[2];}
+    inline float r() const {return e[0];}
+    inline float g() const {return e[1];}
+    inline float b() const {return e[2];}
+
+    inline const Vector3D& operator+() const { return *this; }
+    inline Vector3D operator-() const { return Vector3D(-e[0], -e[1], -e[2]); }
+    inline float operator[](int i) const { return e[i]; }
+    inline float& operator[](int i) { return e[i]; };
+
+    inline Vector3D& operator+=(const Vector3D &v2);
+    inline Vector3D& operator-=(const Vector3D &v2);
+    inline Vector3D& operator*=(const Vector3D &v2);
+    inline Vector3D& operator/=(const Vector3D &v2);
+    inline Vector3D& operator*=(const float t);
+    inline Vector3D& operator/=(const float t);
+
+    inline float length() const { return sqrt(e[0]*e[0] + e[1]*e[1] + e[2]*e[2]); }
+    inline float squered_length() const { return e[0]*e[0] + e[1]*e[1] + e[2]*e[2]; }
+    inline void make_unit_vector();
+
+    float e[3];
+
+    inline std::istream& operator>>(Vector3D &t) {
+        std::istream is();
+        is >> t.e[0] >> t.e[1] >> t.e[2];
+        return is; }
+    inline std::ostream& operator<<(std::ostream &os, const Vector3D &t) {
+        os << t.e[0] << " " << t.e[1] << " " << t.e[2];
+        return os; }
+
+};
+
+#pragma endregion*/
 
 #pragma region Matrix3D
 class Matrix3D
@@ -305,8 +141,8 @@ public:
 	~Matrix3D();
 
 	//Funktioner
-	void Set(float x1, float y1, float x2, float y2);		// sätter värden med fyra värden
-	void Set(Vector2D x, Vector2D y);							// sätter värden med två vectorer
+	void Set(float x1, float y1, float x2, float y2);		// sï¿½tter vï¿½rden med fyra vï¿½rden
+	void Set(Vector2D x, Vector2D y);							// sï¿½tter vï¿½rden med tvï¿½ vectorer
 	void Set(float degrees);
 	void SetSize(float sizeX, float sizeY);
 	void Rot(float degrees);
@@ -337,268 +173,150 @@ private:
 	float matrix[3][3];
 
 };
-
-//Konstructor
-Matrix3D::Matrix3D()
-{
-	for (int i = 0; i < 3; i++)
-		for (int j = 0; i < 3; i++)
-			matrix[i][j] = 0.0f;
-	matrix[0][0] = 1.0f;
-	matrix[1][1] = 1.0f;
-	matrix[2][2] = 1.0f;
-}
-Matrix3D::Matrix3D(float x1, float y1, float x2, float y2)
-{
-	matrix[0][0] = x1;
-	matrix[0][1] = y1;
-	matrix[1][0] = x2;
-	matrix[1][1] = y2;
-	matrix[0][2] = 0.0f;
-	matrix[1][2] = 0.0f;
-	matrix[2][0] = 0.0f;
-	matrix[2][1] = 0.0f;
-	matrix[2][2] = 1.0f;
-}
-Matrix3D::Matrix3D(Vector2D x, Vector2D y)
-{
-	matrix[0][0] = x.GetX();
-	matrix[0][1] = x.GetY();
-	matrix[1][0] = y.GetX();
-	matrix[1][1] = y.GetY();
-	matrix[0][2] = 0.0f;
-	matrix[1][2] = 0.0f;
-	matrix[2][0] = 0.0f;
-	matrix[2][1] = 0.0f;
-	matrix[2][2] = 1.0f;
-}
-Matrix3D::Matrix3D(const Matrix2D& rhs)
-{
-	matrix[0][0] = rhs.GetX1();
-	matrix[0][1] = rhs.GetY1();
-	matrix[1][0] = rhs.GetX2();
-	matrix[1][1] = rhs.GetY2();
-	matrix[0][2] = 0.0f;
-	matrix[1][2] = 0.0f;
-	matrix[2][0] = 0.0f;
-	matrix[2][1] = 0.0f;
-	matrix[2][2] = 1.0f;
-}
-Matrix3D::Matrix3D(float degrees)
-{
-	matrix[0][0] = cos(degrees);
-	matrix[0][1] = -sin(degrees);
-	matrix[1][0] = sin(degrees);
-	matrix[1][1] = cos(degrees);
-	matrix[0][2] = 0.0f;
-	matrix[1][2] = 0.0f;
-	matrix[2][0] = 0.0f;
-	matrix[2][1] = 0.0f;
-	matrix[2][2] = 1.0f;
-}
-
-Matrix3D::~Matrix3D() {}
-
-//Funktions
-void Matrix3D::Set(float x1, float y1, float x2, float y2)
-{
-	matrix[0][0] = x1;
-	matrix[0][1] = y1;
-	matrix[1][0] = x2;
-	matrix[1][1] = y2;
-}
-void Matrix3D::Set(Vector2D x, Vector2D y)
-{
-	matrix[0][0] = x.GetX();
-	matrix[0][1] = x.GetY();
-	matrix[1][0] = y.GetX();
-	matrix[1][1] = y.GetY();
-}
-void Matrix3D::Set(float degrees)
-{
-	matrix[0][0] = cos(degrees);
-	matrix[0][1] = -sin(degrees);
-	matrix[1][0] = sin(degrees);
-	matrix[1][1] = cos(degrees);
-	matrix[2][2] = degrees;
-}
-void Matrix3D::SetSize(float sizeX, float sizeY)
-{
-	matrix[2][0] = sizeX;
-	matrix[2][1] = sizeY;
-}
-void Matrix3D::Rot(float degrees)
-{
-	matrix[0][0] = matrix[0][0] * cos(degrees);
-	matrix[0][1] = matrix[0][1] * -sin(degrees);
-	matrix[1][0] = matrix[1][0] * sin(degrees);
-	matrix[1][1] = matrix[1][1] * cos(degrees);
-}
-void Matrix3D::Transponat()
-{
-	Matrix3D temp;
-	temp = *this;
-	this->matrix[0][1] = temp.matrix[1][0];
-	this->matrix[1][0] = temp.matrix[0][1];
-}
-void Matrix3D::TranslationMatrix(Vector2D v)
-{
-	for (int i = 0; i < 3; i++)
-		for (int j = 0; i < 2; i++)
-			matrix[i][j] = 0.0f;
-	matrix[0][0] = 1.0f;
-	matrix[1][1] = 1.0f;
-	matrix[2][2] = 1.0f;
-	SetPosition(v);
-}
-
-void Matrix3D::SetPosition(Vector2D v)
-{
-	matrix[0][2] = v.GetX();
-	matrix[1][2] = v.GetY();
-}
-Vector2D Matrix3D::GetPosition()
-{
-	Vector2D temp(this->matrix[0][2], this->matrix[1][2]);
-	return temp;
-}
-
-//Operatorer
-Vector2D Matrix3D::operator*(Vector2D& rhs)
-{
-	Vector2D temp(this->GetX1() * rhs.GetX() + this->GetY1() * rhs.GetY(),  //<- Xcord, 
-		this->GetX2() * rhs.GetX() + this->GetY2() * rhs.GetY()); //<- Ycord
-	return temp;
-}
-
 #pragma endregion
 
 #pragma region Vector4D
-class Vector4D
-{
+class Vector4D {
 public:
 
-	explicit Vector4D(float x = 0, float y = 0, float z = 0, float w = 0);
+    inline explicit Vector4D(float x = 0, float y = 0, float z = 0, float w = 1) { cord[0] = x, cord[1] = y, cord[2] = z, cord[3] = w; }
+    inline Vector4D(Vector4D* v1, float f) { cord[0] = v1->x() / f; cord[1] = v1->y() / f; cord[2] = v1->z() / f; cord[3] = v1->w() / f; }
 
-	~Vector4D();
+    inline ~Vector4D() {}
 
-	void Set(float x, float y, float z, float w);
+    inline void Set(float x, float y, float z, float w)
+    {
+        this->cord[0] = x; this->cord[1] = y; this->cord[2] = z; this->cord[3] = w;
+    }
 
-	void SetX(float x);
-	void SetY(float y);
-	void SetZ(float z);
-	void SetW(float w);
+    void SetX(float x);
 
-	inline float GetX() { return cord[0]; }
-	inline float GetY() { return cord[1]; }
-	inline float GetZ() { return cord[2]; }
-	inline float GetW() { return cord[3]; }
+    void SetY(float y);
 
-	inline void Print() const { printf("%0.1f : %0.1f : %0.1f : %0.1f\n", cord[0], cord[1], cord[2], cord[3]); }
-	Vector4D Normalize();
-	float Length();
+    void SetZ(float z);
 
-	void operator*(float rhs);			//Scaling
-	float operator*(Vector4D rhs);		//Dot Multi
+    void SetW(float w);
+
+    inline float GetX()  const { return cord[0]; }
+
+    inline float GetY() const { return cord[1]; }
+
+    inline float GetZ() const { return cord[2]; }
+
+    inline float GetW() const { return cord[3]; }
+
+    inline float *GetPointer() { return cord; }
+
+    inline float r() const { return cord[0]; }
+
+    inline float g() const { return cord[1]; }
+
+    inline float b() const { return cord[2]; }
+
+    inline float a() const { return cord[3]; }
+
+    inline float x() const { return cord[0]; }
+
+    inline float y() const { return cord[1]; }
+
+    inline float z() const { return cord[2]; }
+
+    inline float w() const { return cord[3]; }
+
+
+    inline void Print() const { printf("%0.1f : %0.1f : %0.1f : %0.1f\n", cord[0], cord[1], cord[2], cord[3]); }
+
+    inline Vector4D inverse() const
+    {
+        return Vector4D(-this->cord[0], -this->cord[1], -this->cord[2]);
+    }
+	inline Vector4D Normalize()
+	{
+	    if (this->cord[0] == 0 && this->cord[1] == 0 && this->cord[0] == 0)
+            return Vector4D(0,0,0);
+        float length = 1.0f / this->Length();
+        return Vector4D((this->cord[0] * length), (this->cord[1] * length), (this->cord[2] * length), 1.0f);
+    }
+    inline void addTo(Vector4D v) {
+        this->cord[0] += v.cord[0];
+        this->cord[1] += v.cord[1];
+        this->cord[2] += v.cord[2];
+    }
+    inline void subFrom(Vector4D v) {
+        this->cord[0] -= v.cord[0];
+        this->cord[1] -= v.cord[1];
+        this->cord[2] -= v.cord[2];
+    }
+    inline void divide(float f) {
+        this->cord[0] = this->x() / f; this->cord[1] = this->y() / f; this->cord[2] = this->z() / f; this->cord[3] = this->w() / f;
+    }
+    inline static Vector4D unit_vector(Vector4D const& v)
+    {
+        if (v.x() == 0 && v.y() == 0 && v.z() == 0)
+            return Vector4D(0,0,0);
+        float length = 1.0f / v.Length();
+        return Vector4D((v.x() * length), (v.y() * length), (v.z() * length), 1.0f);
+    }
+	float Length()  const
+	{
+	    return sqrt((this->cord[0] * this->cord[0]) + (this->cord[1] * this->cord[1]) + (this->cord[2] * this->cord[2]));
+	}
+	inline float squared_length() const {
+        return sqrt(cord[0]*cord[0] + cord[1]*cord[1] + cord[2]*cord[2]);
+	}
+    inline static Vector4D cross(const Vector4D lhs, const Vector4D rhs)
+    {
+        Vector4D temp((lhs.cord[1] * rhs.cord[2] - lhs.cord[2] * rhs.cord[1]), (lhs.cord[2] * rhs.cord[0] - lhs.cord[0] * rhs.cord[2]), (lhs.cord[0] * rhs.cord[1] - lhs.cord[1] * rhs.cord[0]), 1.0f);
+        return temp;
+    }
+	inline float Dot(const Vector4D& rhs)const
+    {
+        return ((this->cord[0] * rhs.cord[0]) + (this->cord[1] * rhs.cord[1]) + (this->cord[2] * rhs.cord[2]));
+    }
+
+	//float operator*(const Vector4D rhs);
+	inline Vector4D operator*(float t) const
+	{
+	    return Vector4D(t*this->cord[0], t*this->cord[1], t*this->cord[2], this->cord[3] );
+	}
+	inline Vector4D operator*(Vector4D rhs) {
+        return Vector4D(this->x() * rhs.x(),this->y() * rhs.y(),this->z() * rhs.z() );
+	}
+	inline Vector4D operator/(const float t) const
+	{
+        return Vector4D(this->cord[0]/t, this->cord[1]/t, this->cord[2]/t);
+	}
+	inline Vector4D operator/=(const float t) {
+	    float temp = 1.0/t;
+
+	    this->cord[0] *= temp;
+	    this->cord[1] *= temp;
+	    this->cord[2] *= temp;
+	}
 	Vector4D operator&&(Vector4D rhs);	//Cross Multi  "&&"  may change
-	Vector4D operator+(Vector4D& rhs);	//Addition
-	Vector4D operator-(Vector4D& rhs);	//Subtraction
+
+	inline Vector4D operator+(const Vector4D& rhs) const
+	{
+        Vector4D temp((this->cord[0] + rhs.cord[0]), (this->cord[1] + rhs.cord[1]), (this->cord[2] + rhs.cord[2]));
+        return temp;
+    }	//Addition
+	inline Vector4D operator-(const Vector4D& rhs) const
+	{
+        Vector4D temp((this->cord[0] - rhs.cord[0]), (this->cord[1] - rhs.cord[1]), (this->cord[2] - rhs.cord[2]));
+        return temp;
+    }	//Subtraction
+	inline Vector4D operator+=(const Vector4D& v){
+	    this->cord[0] += v.cord[0];
+        this->cord[1] += v.cord[1];
+        this->cord[2] += v.cord[2];
+	}
+	void operator-=(Vector4D rhs);
 	float& operator[] (const int x);
 	float operator[] (const int x) const;
 
 private:
 	float cord[4];
 };
-///Konstructor 4 float
-Vector4D::Vector4D(float x, float y, float z, float w)
-{
-	cord[0] = x; cord[1] = y; cord[2] = z; cord[3] = w;
-}
-///Dekonstructor
-Vector4D::~Vector4D()
-{
-
-}
-///Set 4 float
-void Vector4D::Set(float x, float y, float z, float w)
-{
-	cord[0] = x; cord[1] = y; cord[2] = z; cord[3] = w;
-}
-///Set X-Value
-void Vector4D::SetX(float x)
-{
-	cord[0] = x;
-}
-///Set Y-Value
-void Vector4D::SetY(float y)
-{
-	cord[1] = y;
-}
-///Set Z-Value
-void Vector4D::SetZ(float z)
-{
-	cord[2] = z;
-}
-///Set W-Value
-void Vector4D::SetW(float w)
-{
-	cord[3] = w;
-}
-
-///Normalizer, gets a vector with length of only 1.
-Vector4D Vector4D::Normalize()
-{
-	float length = 1.0f / this->Length();
-	Vector4D temp((this->cord[0] / length), (this->cord[1] / length), (this->cord[2] / length), this->cord[3]);
-	return temp;
-}
-///Gets Length of the vector
-float Vector4D::Length()
-{
-	return sqrt((this->cord[0] * this->cord[0]) + (this->cord[1] * this->cord[1]) + (this->cord[2] * this->cord[2]));
-}
-
-///Scaling 
-void Vector4D::operator*(float rhs)			//Scaling
-{
-	this->cord[0] = this->cord[0] * rhs;
-	this->cord[1] = this->cord[0] * rhs;
-	this->cord[2] = this->cord[0] * rhs;
-}
-///Dot Multi
-float Vector4D::operator*(Vector4D rhs)		//Dot Multi
-{
-	return ((this->cord[0] * rhs.cord[0]) + (this->cord[1] * rhs.cord[1]) + (this->cord[2] * rhs.cord[2]));
-}
-///Cross Multi
-Vector4D Vector4D::operator&&(Vector4D rhs)	//Cross Multi  "&&"  may change
-{
-	Vector4D temp((this->cord[1] * rhs.cord[2] - this->cord[2] * rhs.cord[1]), (this->cord[2] * rhs.cord[0] - this->cord[0] * rhs.cord[2]), (this->cord[0] * rhs.cord[1] - this->cord[1] * rhs.cord[0]));
-	return temp;
-}
-///Addition
-Vector4D Vector4D::operator+(Vector4D& rhs)	//Addition
-{
-	Vector4D temp((this->cord[0] + rhs.cord[0]), (this->cord[1] + rhs.cord[1]), (this->cord[2] + rhs.cord[2]));
-	return temp;
-}
-///Subtraction
-Vector4D Vector4D::operator-(Vector4D& rhs)	//Subtraction
-{
-	Vector4D temp((this->cord[0] - rhs.cord[0]), (this->cord[1] - rhs.cord[1]), (this->cord[2] - rhs.cord[2]));
-	return temp;
-}
-///Returns a refrence to the value of the x position in the Vector
-float& Vector4D::operator[] (const int x)		//Set
-{
-	return cord[x];
-}
-///Returns a constant to the value of the x position in the Vector
-float Vector4D::operator[] (const int x) const	//Get
-{
-	return cord[x];
-}
-
 #pragma endregion
 
 #pragma region Matrix4D
@@ -608,11 +326,14 @@ class Matrix4D
 public:
 
 	/// Konstruktorer
-	explicit Matrix4D(float x1 = 0, float y1 = 0, float z1 = 0, float w1 = 0, float x2 = 0, float y2 = 0, float z2 = 0, float w2 = 0, float x3 = 0, float y3 = 0, float z3 = 0, float w3 = 0, float x4 = 0, float y4 = 0, float z4 = 0, float w4 = 0);
+
+	Matrix4D(float x1 = 1, float y1 = 0, float z1 = 0, float w1 = 0, float x2 = 0, float y2 = 1, float z2 = 0, float w2 = 0, float x3 = 0, float y3 = 0, float z3 = 1, float w3 = 0, float x4 = 0, float y4 = 0, float z4 = 0, float w4 = 1);
 	Matrix4D(Vector2D a, Vector2D b, Vector2D c, Vector2D d, Vector2D e, Vector2D f, Vector2D g, Vector2D h);
 	Matrix4D(const Matrix2D& a, const Matrix2D& b, const Matrix2D& c, const Matrix2D& d);
 	Matrix4D(const Matrix3D& a);
 	Matrix4D(Vector4D a, float degrees);
+	Matrix4D(Vector4D R, Vector4D U, Vector4D D);
+	Matrix4D(Vector4D P);
 
 	~Matrix4D();
 
@@ -620,7 +341,7 @@ public:
 	void Set(float x1 = 0, float y1 = 0, float z1 = 0, float w1 = 0, float x2 = 0, float y2 = 0, float z2 = 0, float w2 = 0, float x3 = 0, float y3 = 0, float z3 = 0, float w3 = 0, float x4 = 0, float y4 = 0, float z4 = 0, float w4 = 0);
 	void Set(Vector2D a, Vector2D b, Vector2D c, Vector2D d, Vector2D e, Vector2D f, Vector2D g, Vector2D h);
 	void Set(const Matrix2D& a, const Matrix2D& b, const Matrix2D& c, const Matrix2D& d);
-
+	void SetI();
 
 	inline void SetX1(float a) { matrix[0][0] = a; }; inline void SetY1(float a) { matrix[0][1] = a; }; inline void SetZ1(float a) { matrix[0][2] = a; }; inline void SetW1(float a) { matrix[0][3] = a; };
 	inline void SetX2(float a) { matrix[1][0] = a; }; inline void SetY2(float a) { matrix[1][1] = a; }; inline void SetZ2(float a) { matrix[1][2] = a; }; inline void SetW2(float a) { matrix[1][3] = a; };
@@ -631,9 +352,12 @@ public:
 	void InversThis();		// Inverses the activ Matrix, does not create a new matrix.
 	void Print();			// Prints a easy readout.
 	void GetArr();			// Converts into arr[16].
+	float* GetPointer();
+	static Matrix4D lookAt(Vector4D cameraPosition, Vector4D cameraDirection, Vector4D cameraUp);
 	void MakeToMatrix();	// Used in InvertThis to make arr to matrix
+	static Matrix4D GetPositionMatrix(Vector4D vec);
 
-	Matrix4D RotVec(Vector4D& Vec, float degrees);			// Makes a rotation matrix around a vector.
+	static Matrix4D RotVec(Vector4D Vec, float degrees);			// Makes a rotation matrix around a vector.
 	static Matrix4D RotX(float degrees);					// Makes a rotation matrix in the X-axis
 	static Matrix4D RotY(float degrees);					// Makes a rotation matrix in the Y-axis
 	static Matrix4D RotZ(float degrees);					// Makes a rotation matrix in the Z-axis
@@ -642,369 +366,10 @@ public:
 	Matrix4D operator*(float rhs);
 	Vector4D operator*(Vector4D rhs);
 	Matrix4D operator*(Matrix4D rhs);
+	void operator+=(Matrix4D rhs);
 
 private:
 	float matrix[4][4];
 	float arr[16];
 };
-///Konstructor 16 float
-Matrix4D::Matrix4D(float x1, float y1, float z1, float w1, float x2, float y2, float z2, float w2, float x3, float y3, float z3, float w3, float x4, float y4, float z4, float w4) // [0][1] first row second kolomn, [1][0] second row first kolomn.
-{
-	matrix[0][0] = x1; matrix[0][1] = y1; matrix[0][2] = z1; matrix[0][3] = w1;								// x1, y1, z1, w1
-	matrix[1][0] = x2; matrix[1][1] = y2; matrix[1][2] = z2; matrix[1][3] = w2;								// x2, y2, z2, w2
-	matrix[2][0] = x3; matrix[2][1] = y3; matrix[2][2] = z3; matrix[2][3] = w3;								// x3, y3, z3, w3
-	matrix[3][0] = x4; matrix[3][1] = y4; matrix[3][2] = z4; matrix[3][3] = w4;								// x4, y4, z4, w4
-}
-///Konstructor 8 Vector2D
-Matrix4D::Matrix4D(Vector2D a, Vector2D b, Vector2D c, Vector2D d, Vector2D e, Vector2D f, Vector2D g, Vector2D h)			// a, b, c, d: e, f, g, h;
-{
-	matrix[0][0] = a.GetX(); matrix[0][1] = b.GetX(); matrix[0][2] = c.GetX(); matrix[0][3] = d.GetX();		// aX, bX, cX, dX
-	matrix[1][0] = a.GetY(); matrix[1][1] = b.GetY(); matrix[1][2] = c.GetY(); matrix[1][3] = d.GetY();		// aY, bY, cY, dY
-	matrix[2][0] = e.GetX(); matrix[2][1] = f.GetX(); matrix[2][2] = g.GetX(); matrix[2][3] = h.GetX();		// eX, fX, gX, hX
-	matrix[3][0] = e.GetY(); matrix[3][1] = f.GetY(); matrix[3][2] = g.GetY(); matrix[3][3] = h.GetY();		// eY, fY, gY, hY
-}
-///Konstructor 4 Matrix2D
-Matrix4D::Matrix4D(const Matrix2D& a, const Matrix2D& b, const Matrix2D& c, const Matrix2D& d)				// a, b: c, d;
-{
-	matrix[0][0] = a.GetX1(); matrix[0][1] = a.GetY1(); matrix[0][2] = b.GetX1(); matrix[0][3] = b.GetY1();	// aX1, aY1, bX1, bY1
-	matrix[1][0] = a.GetX2(); matrix[1][1] = b.GetY2(); matrix[1][2] = b.GetX2(); matrix[1][3] = b.GetY2();	// aX2, aY2, bX2, bY2
-	matrix[2][0] = c.GetX1(); matrix[2][1] = c.GetY1(); matrix[2][2] = d.GetX1(); matrix[2][3] = d.GetY1();	// cX1, cY1, dX1, dY1
-	matrix[3][0] = c.GetX2(); matrix[3][1] = c.GetY2(); matrix[3][2] = d.GetX2(); matrix[3][3] = d.GetY2();	// cX2, cY2, dX2, dY2
-}
-///Konstructor 1 Matrix3D
-Matrix4D::Matrix4D(const Matrix3D& a)
-{
-	matrix[0][0] = a.GetX1(); matrix[0][1] = a.GetY1(); matrix[0][2] = a.GetZ1(); matrix[0][3] = 0;	// aX1, aY1, bX1, bY1
-	matrix[1][0] = a.GetX2(); matrix[1][1] = a.GetY2(); matrix[1][2] = a.GetZ2(); matrix[1][3] = 0;	// aX2, aY2, bX2, bY2
-	matrix[2][0] = a.GetX3(); matrix[2][1] = a.GetY3();	matrix[2][2] = a.GetZ3(); matrix[2][3] = 0;	// cX1, cY1, dX1, dY1
-	matrix[3][0] = 0; matrix[3][1] = 0;	matrix[3][2] = 0; matrix[3][3] = 0;	// cX2, cY2, dX2, dY2
-}
-///Konstructor Rotation Matrix around Vector
-Matrix4D::Matrix4D(Vector4D Vec, float degrees) //Rotation
-{
-	float Cos = cos(degrees);
-	float Sin = sin(degrees);
-	float x = Vec.GetX(), y = Vec.GetY(), z = Vec.GetZ();
-
-	Matrix4D
-	(
-		x*x*(1 - Cos) + Cos, y*x*(1 - Cos) - z * Sin, z*x*(1 - Cos) + y * Sin, 0,
-		x*y*(1 - Cos) + z * Sin, y*y*(1 - Cos) + Cos, z*y*(1 - Cos) - x * Sin, 0,
-		x*z*(1 - Cos) - y * Sin, y*z*(1 - Cos) + x * Sin, z*z*(1 - Cos) + Cos, 0
-	);
-}
-///Dekostructor
-Matrix4D::~Matrix4D() {}
-
-///Set 16 float
-void Matrix4D::Set(float x1, float y1, float z1, float w1, float x2, float y2, float z2, float w2, float x3, float y3, float z3, float w3, float x4, float y4, float z4, float w4) // [0][1] first row second kolomn, [1][0] second row first kolomn. sets zero on none value!!
-{
-	matrix[0][0] = x1; matrix[0][1] = y1; matrix[0][2] = z1; matrix[0][3] = w1;		// x1, y1, z1, w1
-	matrix[1][0] = x2; matrix[1][1] = y2; matrix[1][2] = z2; matrix[1][3] = w2;		// x2, y2, z2, w2
-	matrix[2][0] = x3; matrix[2][1] = y3; matrix[2][2] = z3; matrix[2][3] = w3;		// x3, y3, z3, w3
-	matrix[3][0] = x4; matrix[3][1] = y4; matrix[3][2] = z4; matrix[3][3] = w4;		// x4, y4, z4, w4
-}
-///Set 8 Vector2D
-void Matrix4D::Set(Vector2D a, Vector2D b, Vector2D c, Vector2D d, Vector2D e, Vector2D f, Vector2D g, Vector2D h)			// a, b, c, d: e, f, g, h;
-{
-	matrix[0][0] = a.GetX(); matrix[0][1] = b.GetX(); matrix[0][2] = c.GetX(); matrix[0][3] = d.GetX();		// aX, bX, cX, dX
-	matrix[1][0] = a.GetY(); matrix[1][1] = b.GetY(); matrix[1][2] = c.GetY(); matrix[1][3] = d.GetY();		// aY, bY, cY, dY
-	matrix[2][0] = e.GetX(); matrix[2][1] = f.GetX(); matrix[2][2] = g.GetX(); matrix[2][3] = h.GetX();		// eX, fX, gX, hX
-	matrix[3][0] = e.GetY(); matrix[3][1] = f.GetY(); matrix[3][2] = g.GetY(); matrix[3][3] = h.GetY();		// eY, fY, gY, hY
-}
-///Set 4 Matrix2D
-void Matrix4D::Set(const Matrix2D& a, const Matrix2D& b, const Matrix2D& c, const Matrix2D& d)				// a, b: c, d;
-{
-
-	matrix[0][0] = a.GetX1(); matrix[0][1] = a.GetY1(); matrix[0][2] = b.GetX1(); matrix[0][3] = b.GetY1();	// aX1, aY1, bX1, bY1
-	matrix[1][0] = a.GetX2(); matrix[1][1] = b.GetY2(); matrix[1][2] = b.GetX2(); matrix[1][3] = b.GetY2();	// aX2, aY2, bX2, bY2
-	matrix[2][0] = c.GetX1(); matrix[2][1] = c.GetY1(); matrix[2][2] = d.GetX1(); matrix[2][3] = d.GetY1();	// cX1, cY1, dX1, dY1
-	matrix[3][0] = c.GetX2(); matrix[3][1] = c.GetY2(); matrix[3][2] = d.GetX2(); matrix[3][3] = d.GetY2();	// cX2, cY2, dX2, dY2
-}
-
-///Makes a Rotation Matrix i the X-axel
-Matrix4D Matrix4D::RotX(float degrees)
-{
-	float c = cos(degrees), s = sin(degrees);
-
-	return Matrix4D
-	(
-		1, 0, 0, 0,
-		0, c, -s, 0,
-		0, s, c, 0,
-		0, 0, 0, 1
-	);
-}
-///Makes a Rotation Matrix i the Y-axel
-Matrix4D Matrix4D::RotY(float degrees)
-{
-	float c = cos(degrees), s = sin(degrees);
-
-	return Matrix4D
-	(
-		c, 0, s, 0,
-		0, 1, 0, 0,
-		-s, 0, c, 0,
-		0, 0, 0, 1
-	);
-
-}
-///Makes a Rotation Matrix i the Z-axel
-Matrix4D Matrix4D::RotZ(float degrees)
-{
-	float c = cos(degrees), s = sin(degrees);
-
-	return Matrix4D
-	(
-		c, -s, 0, 0,
-		s, c, 0, 0,
-		0, 0, 1, 0,
-		0, 0, 0, 1
-	);
-}
-///Makes a Rotation Matrix around a Vector4D
-Matrix4D Matrix4D::RotVec(Vector4D& Vec, float degrees)
-{
-	float Cos = cos(degrees);
-	float Sin = sin(degrees);
-	float x = Vec.GetX(), y = Vec.GetY(), z = Vec.GetZ();
-
-	return Matrix4D
-	(
-		x*x*(1 - Cos) + Cos, y*x*(1 - Cos) - z * Sin, z*x*(1 - Cos) + y * Sin, 0,
-		x*y*(1 - Cos) + z * Sin, y*y*(1 - Cos) + Cos, z*y*(1 - Cos) - x * Sin, 0,
-		x*z*(1 - Cos) - y * Sin, y*z*(1 - Cos) + x * Sin, z*z*(1 - Cos) + Cos, 0
-	);
-}
-
-///Transposes the current Matrix, NOT A NEW ONE
-void Matrix4D::TransposeThis()
-{
-	Matrix4D temp;
-	temp = *this;
-
-	this->matrix[0][1] = temp.matrix[1][0]; // 1
-	this->matrix[1][0] = temp.matrix[0][1]; // 2
-
-	this->matrix[0][2] = temp.matrix[2][0]; // 3
-	this->matrix[2][0] = temp.matrix[0][2]; // 4
-
-	this->matrix[1][2] = temp.matrix[2][1]; // 5
-	this->matrix[2][1] = temp.matrix[1][2]; // 6
-
-	this->matrix[0][3] = temp.matrix[3][0]; // 7
-	this->matrix[3][0] = temp.matrix[0][3]; // 8
-
-	this->matrix[1][3] = temp.matrix[3][1]; // 9
-	this->matrix[3][1] = temp.matrix[1][3]; // 10
-
-	this->matrix[2][3] = temp.matrix[3][2]; // 11
-	this->matrix[3][2] = temp.matrix[2][3]; // 12
-
-	temp.~Matrix4D();
-}
-///inverses the current Matrix, NOT A NEW ONE
-void Matrix4D::InversThis()
-{
-	GetArr();
-	float inv[16], det;
-	int i;
-
-	inv[0] = arr[5] * arr[10] * arr[15] -
-		arr[5] * arr[11] * arr[14] -
-		arr[9] * arr[6] * arr[15] +
-		arr[9] * arr[7] * arr[14] +
-		arr[13] * arr[6] * arr[11] -
-		arr[13] * arr[7] * arr[10];
-
-	inv[4] = -arr[4] * arr[10] * arr[15] +
-		arr[4] * arr[11] * arr[14] +
-		arr[8] * arr[6] * arr[15] -
-		arr[8] * arr[7] * arr[14] -
-		arr[12] * arr[6] * arr[11] +
-		arr[12] * arr[7] * arr[10];
-
-	inv[8] = arr[4] * arr[9] * arr[15] -
-		arr[4] * arr[11] * arr[13] -
-		arr[8] * arr[5] * arr[15] +
-		arr[8] * arr[7] * arr[13] +
-		arr[12] * arr[5] * arr[11] -
-		arr[12] * arr[7] * arr[9];
-
-	inv[12] = -arr[4] * arr[9] * arr[14] +
-		arr[4] * arr[10] * arr[13] +
-		arr[8] * arr[5] * arr[14] -
-		arr[8] * arr[6] * arr[13] -
-		arr[12] * arr[5] * arr[10] +
-		arr[12] * arr[6] * arr[9];
-
-	inv[1] = -arr[1] * arr[10] * arr[15] +
-		arr[1] * arr[11] * arr[14] +
-		arr[9] * arr[2] * arr[15] -
-		arr[9] * arr[3] * arr[14] -
-		arr[13] * arr[2] * arr[11] +
-		arr[13] * arr[3] * arr[10];
-
-	inv[5] = arr[0] * arr[10] * arr[15] -
-		arr[0] * arr[11] * arr[14] -
-		arr[8] * arr[2] * arr[15] +
-		arr[8] * arr[3] * arr[14] +
-		arr[12] * arr[2] * arr[11] -
-		arr[12] * arr[3] * arr[10];
-
-	inv[9] = -arr[0] * arr[9] * arr[15] +
-		arr[0] * arr[11] * arr[13] +
-		arr[8] * arr[1] * arr[15] -
-		arr[8] * arr[3] * arr[13] -
-		arr[12] * arr[1] * arr[11] +
-		arr[12] * arr[3] * arr[9];
-
-	inv[13] = arr[0] * arr[9] * arr[14] -
-		arr[0] * arr[10] * arr[13] -
-		arr[8] * arr[1] * arr[14] +
-		arr[8] * arr[2] * arr[13] +
-		arr[12] * arr[1] * arr[10] -
-		arr[12] * arr[2] * arr[9];
-
-	inv[2] = arr[1] * arr[6] * arr[15] -
-		arr[1] * arr[7] * arr[14] -
-		arr[5] * arr[2] * arr[15] +
-		arr[5] * arr[3] * arr[14] +
-		arr[13] * arr[2] * arr[7] -
-		arr[13] * arr[3] * arr[6];
-
-	inv[6] = -arr[0] * arr[6] * arr[15] +
-		arr[0] * arr[7] * arr[14] +
-		arr[4] * arr[2] * arr[15] -
-		arr[4] * arr[3] * arr[14] -
-		arr[12] * arr[2] * arr[7] +
-		arr[12] * arr[3] * arr[6];
-
-	inv[10] = arr[0] * arr[5] * arr[15] -
-		arr[0] * arr[7] * arr[13] -
-		arr[4] * arr[1] * arr[15] +
-		arr[4] * arr[3] * arr[13] +
-		arr[12] * arr[1] * arr[7] -
-		arr[12] * arr[3] * arr[5];
-
-	inv[14] = -arr[0] * arr[5] * arr[14] +
-		arr[0] * arr[6] * arr[13] +
-		arr[4] * arr[1] * arr[14] -
-		arr[4] * arr[2] * arr[13] -
-		arr[12] * arr[1] * arr[6] +
-		arr[12] * arr[2] * arr[5];
-
-	inv[3] = -arr[1] * arr[6] * arr[11] +
-		arr[1] * arr[7] * arr[10] +
-		arr[5] * arr[2] * arr[11] -
-		arr[5] * arr[3] * arr[10] -
-		arr[9] * arr[2] * arr[7] +
-		arr[9] * arr[3] * arr[6];
-
-	inv[7] = arr[0] * arr[6] * arr[11] -
-		arr[0] * arr[7] * arr[10] -
-		arr[4] * arr[2] * arr[11] +
-		arr[4] * arr[3] * arr[10] +
-		arr[8] * arr[2] * arr[7] -
-		arr[8] * arr[3] * arr[6];
-
-	inv[11] = -arr[0] * arr[5] * arr[11] +
-		arr[0] * arr[7] * arr[9] +
-		arr[4] * arr[1] * arr[11] -
-		arr[4] * arr[3] * arr[9] -
-		arr[8] * arr[1] * arr[7] +
-		arr[8] * arr[3] * arr[5];
-
-	inv[15] = arr[0] * arr[5] * arr[10] -
-		arr[0] * arr[6] * arr[9] -
-		arr[4] * arr[1] * arr[10] +
-		arr[4] * arr[2] * arr[9] +
-		arr[8] * arr[1] * arr[6] -
-		arr[8] * arr[2] * arr[5];
-
-	det = arr[0] * inv[0] + arr[1] * inv[4] + arr[2] * inv[8] + arr[3] * inv[12];
-
-	if (det == 0)
-	{
-		printf("Invalid invers: identity returned\n");
-		Set(1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f);
-		return;
-	}
-
-	det = 1.0 / det;
-
-	for (i = 0; i < 16; i++)
-		arr[i] = inv[i] * det;
-	MakeToMatrix();
-}
-///Prints a easy readout
-void Matrix4D::Print()
-{
-	printf(" | %f : %f : %f : %f | \n | %f : %f : %f : %f | \n | %f : %f : %f : %f | \n | %f : %f : %f : %f | \n",
-		this->matrix[0][0], this->matrix[0][1], this->matrix[0][2], this->matrix[0][3],
-		this->matrix[1][0], this->matrix[1][1], this->matrix[1][2], this->matrix[1][3],
-		this->matrix[2][0], this->matrix[2][1], this->matrix[2][2], this->matrix[2][3],
-		this->matrix[3][0], this->matrix[3][1], this->matrix[3][2], this->matrix[3][3]
-	);
-}
-///Converts to a arr[16]
-void Matrix4D::GetArr()
-{
-	int index = 0;
-	for (int i = 0; i < 4; i++)
-		for (int j = 0; j < 4; j++)
-		{
-			arr[index] = this->matrix[i][j];
-			index++;
-		}
-}
-///Converts arr to matrix
-void Matrix4D::MakeToMatrix()
-{
-	this->Set(arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], arr[8], arr[9], arr[10], arr[11], arr[12], arr[13], arr[14], arr[15]);
-}
-
-
-///Divide by float
-Matrix4D Matrix4D::operator/(float rhs)
-{
-	Matrix4D Temp(
-		this->matrix[0][0] / rhs, this->matrix[0][1] / rhs, this->matrix[0][2] / rhs, this->matrix[0][3] / rhs,
-		this->matrix[1][0] / rhs, this->matrix[1][1] / rhs, this->matrix[1][2] / rhs, this->matrix[1][3] / rhs,
-		this->matrix[2][0] / rhs, this->matrix[2][1] / rhs, this->matrix[2][2] / rhs, this->matrix[2][3] / rhs,
-		this->matrix[3][0] / rhs, this->matrix[3][1] / rhs, this->matrix[3][2] / rhs, this->matrix[3][3] / rhs);
-	return Temp;
-}
-///multiply by float
-Matrix4D Matrix4D::operator*(float rhs)
-{
-	Matrix4D Temp(
-		this->matrix[0][0] * rhs, this->matrix[0][1] * rhs, this->matrix[0][2] * rhs, this->matrix[0][3] * rhs,
-		this->matrix[1][0] * rhs, this->matrix[1][1] * rhs, this->matrix[1][2] * rhs, this->matrix[1][3] * rhs,
-		this->matrix[2][0] * rhs, this->matrix[2][1] * rhs, this->matrix[2][2] * rhs, this->matrix[2][3] * rhs,
-		this->matrix[3][0] * rhs, this->matrix[3][1] * rhs, this->matrix[3][2] * rhs, this->matrix[3][3] * rhs);
-	return Temp;
-}
-///multiply by Vector4D
-Vector4D Matrix4D::operator*(Vector4D rhs)
-{
-	return Vector4D
-	(
-		this->matrix[0][0] * rhs.GetX() + this->matrix[0][1] * rhs.GetY() + this->matrix[0][2] * rhs.GetZ() + this->matrix[0][3] * rhs.GetW(),
-		this->matrix[1][0] * rhs.GetX() + this->matrix[1][1] * rhs.GetY() + this->matrix[1][2] * rhs.GetZ() + this->matrix[1][3] * rhs.GetW(),
-		this->matrix[2][0] * rhs.GetX() + this->matrix[2][1] * rhs.GetY() + this->matrix[2][2] * rhs.GetZ() + this->matrix[2][3] * rhs.GetW(),
-		this->matrix[3][0] * rhs.GetX() + this->matrix[3][1] * rhs.GetY() + this->matrix[3][2] * rhs.GetZ() + this->matrix[3][3] * rhs.GetW()
-	);
-}
-///multiply by Matrix4D
-Matrix4D Matrix4D::operator*(Matrix4D rhs)
-{
-	return Matrix4D
-	(
-		/* x1 */this->matrix[0][0] * rhs.matrix[0][0] + this->matrix[0][1] * rhs.matrix[1][0] + this->matrix[0][2] * rhs.matrix[2][0] + this->matrix[0][3] * rhs.matrix[3][0],/* y1 */ this->matrix[0][0] * rhs.matrix[0][1] + this->matrix[0][1] * rhs.matrix[1][1] + this->matrix[0][2] * rhs.matrix[2][1] + this->matrix[0][3] * rhs.matrix[3][1], /* z1 */ this->matrix[0][0] * rhs.matrix[0][2] + this->matrix[0][1] * rhs.matrix[1][2] + this->matrix[0][2] * rhs.matrix[2][2] + this->matrix[0][3] * rhs.matrix[3][2], /* w1 */ this->matrix[0][0] * rhs.matrix[0][3] + this->matrix[0][1] * rhs.matrix[1][3] + this->matrix[0][2] * rhs.matrix[2][3] + this->matrix[0][3] * rhs.matrix[3][3],
-		/* x2 */this->matrix[1][0] * rhs.matrix[0][0] + this->matrix[1][1] * rhs.matrix[1][0] + this->matrix[1][2] * rhs.matrix[2][0] + this->matrix[1][3] * rhs.matrix[3][0],/* y2 */ this->matrix[1][0] * rhs.matrix[0][1] + this->matrix[1][1] * rhs.matrix[1][1] + this->matrix[1][2] * rhs.matrix[2][1] + this->matrix[1][3] * rhs.matrix[3][1], /* z2 */ this->matrix[1][0] * rhs.matrix[0][2] + this->matrix[1][1] * rhs.matrix[1][2] + this->matrix[1][2] * rhs.matrix[2][2] + this->matrix[1][3] * rhs.matrix[3][2], /* w2 */ this->matrix[1][0] * rhs.matrix[0][3] + this->matrix[1][1] * rhs.matrix[1][3] + this->matrix[1][2] * rhs.matrix[2][3] + this->matrix[1][3] * rhs.matrix[3][3],
-		/* x3 */this->matrix[2][0] * rhs.matrix[0][0] + this->matrix[2][1] * rhs.matrix[1][0] + this->matrix[2][2] * rhs.matrix[2][0] + this->matrix[2][3] * rhs.matrix[3][0],/* y3 */ this->matrix[2][0] * rhs.matrix[0][1] + this->matrix[2][1] * rhs.matrix[1][1] + this->matrix[2][2] * rhs.matrix[2][1] + this->matrix[2][3] * rhs.matrix[3][1], /* z3 */ this->matrix[2][0] * rhs.matrix[0][2] + this->matrix[2][1] * rhs.matrix[1][2] + this->matrix[2][2] * rhs.matrix[2][2] + this->matrix[2][3] * rhs.matrix[3][2], /* w3 */ this->matrix[2][0] * rhs.matrix[0][3] + this->matrix[2][1] * rhs.matrix[1][3] + this->matrix[2][2] * rhs.matrix[2][3] + this->matrix[2][3] * rhs.matrix[3][3],
-		/* x4 */this->matrix[3][0] * rhs.matrix[0][0] + this->matrix[3][1] * rhs.matrix[1][0] + this->matrix[3][2] * rhs.matrix[2][0] + this->matrix[3][3] * rhs.matrix[3][0],/* y4 */ this->matrix[3][0] * rhs.matrix[0][1] + this->matrix[3][1] * rhs.matrix[1][1] + this->matrix[3][2] * rhs.matrix[2][1] + this->matrix[3][3] * rhs.matrix[3][1], /* z4 */ this->matrix[3][0] * rhs.matrix[0][2] + this->matrix[3][1] * rhs.matrix[1][2] + this->matrix[3][2] * rhs.matrix[2][2] + this->matrix[3][3] * rhs.matrix[3][2], /* w4 */ this->matrix[3][0] * rhs.matrix[0][3] + this->matrix[3][1] * rhs.matrix[1][3] + this->matrix[3][2] * rhs.matrix[2][3] + this->matrix[3][3] * rhs.matrix[3][3]
-	);
-}
 #pragma endregion

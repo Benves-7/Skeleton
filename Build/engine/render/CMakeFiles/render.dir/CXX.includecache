@@ -108,22 +108,6 @@ math.h
 nanovg.h
 ../exts/nanovg/src/nanovg.h
 
-/home/benves-7/Documents/School/lab-env/engine/config.cc
-config.h
-/home/benves-7/Documents/School/lab-env/engine/config.h
-
-/home/benves-7/Documents/School/lab-env/engine/config.h
-win32/pch.h
-/home/benves-7/Documents/School/lab-env/engine/win32/pch.h
-stdint.h
--
-atomic
--
-xmmintrin.h
--
-assert.h
--
-
 /home/benves-7/Documents/School/lab-env/engine/render/window.cc
 config.h
 /home/benves-7/Documents/School/lab-env/engine/render/config.h
@@ -146,5 +130,7 @@ GL/glew.h
 GLFW/glfw3.h
 -
 nanovg.h
+-
+config.h
 -
 

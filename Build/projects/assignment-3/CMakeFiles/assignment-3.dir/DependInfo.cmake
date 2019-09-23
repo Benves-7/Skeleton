@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/MathLib.cpp" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.o"
-  "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cc" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cc.o"
-  "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cc" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cc.o"
+  "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cpp" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/exampleapp.cpp.o"
+  "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cpp" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/main.cpp.o"
   "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/meshresource.cpp" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o"
   "/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/textureresource.cpp" "/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/textureresource.cpp.o"
   )

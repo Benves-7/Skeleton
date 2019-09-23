@@ -284,7 +284,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="ImGuiExample">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/ImGuiExample/ImGuiExample" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/ImGuiExample" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -306,7 +306,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="ImGuiExample/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/ImGuiExample/ImGuiExample" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/ImGuiExample" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -328,7 +328,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-1">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-1/assignment-1" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -350,7 +350,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-1/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-1/assignment-1" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -372,7 +372,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-2">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-2/assignment-2" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -394,7 +394,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-2/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-2/assignment-2" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -416,7 +416,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-3">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/assignment-3" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -438,7 +438,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-3/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/assignment-3" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -460,7 +460,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-4">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-4/assignment-4" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -482,7 +482,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-4/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-4/assignment-4" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -504,7 +504,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-5">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/assignment-5" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -526,7 +526,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-5/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/assignment-5" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -548,7 +548,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-6">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-6/assignment-6" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -570,7 +570,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-6/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-6/assignment-6" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -592,7 +592,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="example">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/example/example" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/example" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -614,7 +614,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="example/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/Build/projects/example/example" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/benves-7/Documents/School/lab-env/bin/example" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -800,13 +800,40 @@
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h">
 			<Option target="assignment-1"/>
 		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/camera.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/dielectric.h">
+			<Option target="assignment-1"/>
+		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.cc">
 			<Option target="assignment-1"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h">
 			<Option target="assignment-1"/>
 		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable_list.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/lambertian.h">
+			<Option target="assignment-1"/>
+		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/main.cc">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/metal.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/ray.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h">
 			<Option target="assignment-1"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-2/code/MathLib.cpp">
@@ -842,13 +869,13 @@
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/MathLib.h">
 			<Option target="assignment-3"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cc">
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.cpp">
 			<Option target="assignment-3"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/exampleapp.h">
 			<Option target="assignment-3"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cc">
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/main.cpp">
 			<Option target="assignment-3"/>
 		</Unit>
 		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/code/meshresource.cpp">

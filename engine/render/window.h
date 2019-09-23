@@ -10,6 +10,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <nanovg.h>
+#include <config.h>
 
 namespace Display
 {
@@ -58,6 +59,7 @@ public:
 	void SetUiRender(const std::function<void()>& func);
 	/// set optional nanovg render function
 	void SetNanoVGRender(const std::function<void(NVGcontext *)> & func);
+	GLFWwindow* window;
 
 private:
 
@@ -75,7 +77,7 @@ private:
 	/// resize update
 	void Resize();
 	/// title rename update
-	void Retitle(); 
+	void Retitle();
 
 	static int32 WindowCount;
 
@@ -98,7 +100,6 @@ private:
 	int32 width;
 	int32 height;
 	std::string title;
-	GLFWwindow* window;
 	NVGcontext * vg;
 };
 

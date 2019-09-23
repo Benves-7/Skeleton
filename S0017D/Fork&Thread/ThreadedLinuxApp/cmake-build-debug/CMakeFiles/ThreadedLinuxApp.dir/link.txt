@@ -1,1 +1,0 @@
-/usr/bin/c++  -pthread -g   CMakeFiles/ThreadedLinuxApp.dir/main.cpp.o  -o ThreadedLinuxApp 

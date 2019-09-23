@@ -69,7 +69,7 @@ namespace Example
 			texture->bindTexture();
 
 			float move = 0.0;
-			for (int i = 0; i < 10; i++)
+			for (int i = 0; i < 1; i++)
 			{
 				GraphicsNode temp;
 
@@ -183,7 +183,7 @@ namespace Example
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 			this->window->Update();
 
-			float radius = 10.f;
+			float radius = 1.f;
 			float x = sin(glfwGetTime()) * radius;
 			float z = cos(glfwGetTime()) * radius;
 			float y = sin(glfwGetTime()) * radius;

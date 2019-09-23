@@ -1,4 +1,4 @@
-/home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/benves-7/Documents/School/lab-env
+/home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benves-7/Documents/School/lab-env
 CMake Warning (dev) at /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/FindOpenGL.cmake:275 (message):
   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the

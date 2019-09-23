@@ -2,31 +2,199 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="gscept_lab_env" targetName="assignment-6" />
-      <config projectName="gscept_lab_env" targetName="core" />
-      <config projectName="gscept_lab_env" targetName="assignment-1" />
-      <config projectName="gscept_lab_env" targetName="imgui" />
+      <config projectName="gscept_lab_env" targetName="example" />
       <config projectName="gscept_lab_env" targetName="ImGuiExample" />
+      <config projectName="gscept_lab_env" targetName="assignment-6" />
       <config projectName="gscept_lab_env" targetName="assignment-5" />
       <config projectName="gscept_lab_env" targetName="assignment-4" />
       <config projectName="gscept_lab_env" targetName="assignment-3" />
       <config projectName="gscept_lab_env" targetName="assignment-2" />
-      <config projectName="gscept_lab_env" targetName="nanovg" />
-      <config projectName="gscept_lab_env" targetName="example" />
-      <config projectName="gscept_lab_env" targetName="render" />
+      <config projectName="gscept_lab_env" targetName="assignment-1" />
       <config projectName="gscept_lab_env" targetName="glfw" />
+      <config projectName="gscept_lab_env" targetName="imgui" />
+      <config projectName="gscept_lab_env" targetName="core" />
+      <config projectName="gscept_lab_env" targetName="nanovg" />
       <config projectName="gscept_lab_env" targetName="glew" />
+      <config projectName="gscept_lab_env" targetName="render" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Default" GENERATION_DIR="$PROJECT_DIR$/Build" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/Build" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ce147d-99ad-4cdb-b0cb-bbeadeec7b53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/__/config.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/__/config.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/app.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/app.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/core/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/core/libcore.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/libcore.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/__/config.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/__/config.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/window.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/window.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/render/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/engine/render/librender.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/librender.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/src/glew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/src/glew.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glew/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glew/libglew.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/libglew.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/context.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/init.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/init.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/input.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/input.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/window.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/window.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/libglfw3.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/libglfw3.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/libimgui.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/libimgui.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/exts/libnanovg.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/libnanovg.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/gscept_lab_env.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/gscept_lab_env.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/ImGuiExample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/ImGuiExample.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/assignment-1" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/assignment-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/assignment-1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/assignment-1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/assignment-2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/assignment-2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/assignment-3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/assignment-3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/assignment-4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/assignment-4.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/assignment-6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/assignment-6.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/example/example.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/example.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/.idea/ThreadedLinuxApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/ThreadedLinuxApp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/ThreadedLinuxApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/ThreadedLinuxApp.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S0017D/Fork&amp;Thread/ThreadedLinuxApp/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/render/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/render/window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-1/code/MathLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-1/code/MathLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-1/code/exampleapp.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-1/code/exampleapp.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-1/code/exampleapp.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-1/code/exampleapp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-1/code/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-1/code/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.sh" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +205,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,7 +213,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/assignment-5" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,73 +238,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.assignment-5">
-    <configuration name="ImGuiExample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="ImGuiExample" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="ImGuiExample">
+  <component name="RunManager" selected="CMake Application.assignment-1">
+    <configuration name="ImGuiExample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="ImGuiExample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="ImGuiExample">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignment-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-1" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-1">
+    <configuration name="assignment-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignment-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-2" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-2">
+    <configuration name="assignment-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignment-3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-3" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-3">
+    <configuration name="assignment-3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignment-4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-4" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-4">
+    <configuration name="assignment-4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignment-5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-5" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-5">
+    <configuration name="assignment-5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignment-6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-6" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-6">
+    <configuration name="assignment-6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="assignment-6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="assignment-6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="core" CONFIG_NAME="Default">
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="core" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="example">
+    <configuration name="example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gscept_lab_env" RUN_TARGET_NAME="example">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glew" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="glew" CONFIG_NAME="Default">
+    <configuration name="glew" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="glew" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="glfw" CONFIG_NAME="Default">
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="glfw" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="imgui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="imgui" CONFIG_NAME="Default">
+    <configuration name="imgui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="imgui" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nanovg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="nanovg" CONFIG_NAME="Default">
+    <configuration name="nanovg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="nanovg" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="render" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="render" CONFIG_NAME="Default">
+    <configuration name="render" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gscept_lab_env" TARGET_NAME="render" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -169,6 +340,13 @@
       <workItem from="1567604151677" duration="32000" />
       <workItem from="1567605127614" duration="80000" />
       <workItem from="1567683015361" duration="1544000" />
+      <workItem from="1568102403248" duration="692000" />
+      <workItem from="1568629793366" duration="726000" />
+      <workItem from="1568964646239" duration="1108000" />
+      <workItem from="1568981732596" duration="183000" />
+      <workItem from="1568982118859" duration="4567000" />
+      <workItem from="1568986694278" duration="2619000" />
+      <workItem from="1569225711449" duration="13367000" />
     </task>
     <servers />
   </component>
@@ -187,5 +365,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <condition expression="i == 150" language="ObjectiveC" />
+          <url>file://$PROJECT_DIR$/projects/assignment-1/code/hitable_list.h</url>
+          <line>24</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

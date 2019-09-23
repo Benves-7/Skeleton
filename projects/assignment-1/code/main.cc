@@ -2,7 +2,6 @@
 // main.cc
 // (C) 2015-2018 Individual contributors, see AUTHORS file
 //------------------------------------------------------------------------------
-#include "config.h"
 #include "exampleapp.h"
 #include "MathLib.h"
 int

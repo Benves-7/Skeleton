@@ -7,8 +7,18 @@ projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../engin
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../exts/glew/include/GL/glew.h
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../exts/glfw/include/GLFW/glfw3.h
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../exts/nanovg/src/nanovg.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/MathLib.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/camera.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/dielectric.h
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/exampleapp.cc
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/exampleapp.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/hitable.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/hitable_list.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/lambertian.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/material.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/metal.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/ray.h
+projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o: ../projects/assignment-1/code/sphere.h
 
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o: ../engine/config.h
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o: ../engine/core/app.h
