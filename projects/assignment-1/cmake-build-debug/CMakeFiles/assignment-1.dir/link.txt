@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/assignment-1.dir/code/exampleapp.o CMakeFiles/assignment-1.dir/code/main.o  -o assignment-1 -lcore -lrender 

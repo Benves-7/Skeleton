@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
+iostream
+-
+string
+-
+math.h
+-
+
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.cc
+exampleapp.h
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
+cstring
+-
+
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
+core/app.h
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/core/app.h
+render/window.h
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/render/window.h
+
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/main.cc
+exampleapp.h
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
+MathLib.h
+/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
+

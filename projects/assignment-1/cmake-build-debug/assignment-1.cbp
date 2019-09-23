@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="assignment-1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment-1">
+				<Option output="/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/assignment-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignment-1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment-1/fast">
+				<Option output="/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/assignment-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignment-1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/lab-env/projects/assignment-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/camera.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/dielectric.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.cc">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable_list.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/lambertian.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/main.cc">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/metal.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/ray.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h">
+			<Option target="assignment-1"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
