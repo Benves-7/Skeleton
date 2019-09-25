@@ -39,8 +39,6 @@ namespace Example
 
 		if (this->window->Open())
 		{
-
-
 			// Z-buffer
 			glEnable(GL_DEPTH_TEST);
 			glDepthFunc(GL_LESS);

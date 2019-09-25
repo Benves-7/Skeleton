@@ -192,14 +192,6 @@ ShaderObject.h
 MathLib.h
 /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/main.cc
-config.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/config.h
-exampleapp.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.h
-MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
-
 /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/meshresource.h
 core/app.h
 -

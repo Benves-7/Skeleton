@@ -79,7 +79,7 @@ public:
 	{
 		if (!loadOBJinternal(filename, vbuffer, ibuffer))
 		{
-			printf("failed to load OBJ");
+			printf("Failed to load OBJ\n");
 		}
 		else
 		{
@@ -196,7 +196,7 @@ inline bool MeshResource::loadOBJinternal(const char* path, vector<Vertex> &vbuf
 	FILE* file = fopen(path, "r");
 	if (file == NULL)
 	{
-		printf("Impossible to open the file! \n");
+		printf("File not found! \n");
 		return false;
 	}
 	while (true)

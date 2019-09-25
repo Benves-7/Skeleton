@@ -53,7 +53,7 @@ inline void TextureResource::makeTexture(const char* textureFile)
 	}
 	else
 	{
-		printf("Failed to load texture");
+		printf("Failed to load texture\n");
 	}
 	stbi_image_free(data);
 }
