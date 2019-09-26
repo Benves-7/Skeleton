@@ -48,10 +48,10 @@ RM = /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benves-7/Documents/School/lab-env
+CMAKE_SOURCE_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benves-7/Documents/School/lab-env/Build
+CMAKE_BINARY_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -E cmake_progress_start /home/benves-7/Documents/School/lab-env/Build/CMakeFiles /home/benves-7/Documents/School/lab-env/Build/engine/CMakeFiles/progress.marks
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benves-7/Documents/School/lab-env/Build/CMakeFiles 0
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/engine/CMakeFiles/progress.marks"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 engine/clean
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 engine/preinstall
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 engine/preinstall
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

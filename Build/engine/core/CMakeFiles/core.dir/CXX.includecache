@@ -34,13 +34,13 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/home/benves-7/Documents/School/lab-env/engine/config.cc
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/config.cc
 config.h
-/home/benves-7/Documents/School/lab-env/engine/config.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/config.h
 
-/home/benves-7/Documents/School/lab-env/engine/config.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/config.h
 win32/pch.h
-/home/benves-7/Documents/School/lab-env/engine/win32/pch.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/win32/pch.h
 stdint.h
 -
 atomic
@@ -50,13 +50,13 @@ xmmintrin.h
 assert.h
 -
 
-/home/benves-7/Documents/School/lab-env/engine/core/app.cc
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/core/app.cc
 config.h
-/home/benves-7/Documents/School/lab-env/engine/core/config.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/core/config.h
 app.h
-/home/benves-7/Documents/School/lab-env/engine/core/app.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/core/app.h
 
-/home/benves-7/Documents/School/lab-env/engine/core/app.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/core/app.h
 GL/glew.h
 -
 

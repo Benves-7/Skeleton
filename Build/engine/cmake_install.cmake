@@ -1,4 +1,4 @@
-# Install script for directory: /home/benves-7/Documents/School/lab-env/engine
+# Install script for directory: /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benves-7/Documents/School/lab-env/Build/engine/core/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/engine/render/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/engine/core/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/engine/render/cmake_install.cmake")
 
 endif()
 

@@ -48,10 +48,10 @@ RM = /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benves-7/Documents/School/lab-env
+CMAKE_SOURCE_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benves-7/Documents/School/lab-env/Build
+CMAKE_BINARY_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -E cmake_progress_start /home/benves-7/Documents/School/lab-env/Build/CMakeFiles /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/CMakeFiles/progress.marks
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benves-7/Documents/School/lab-env/Build/CMakeFiles 0
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5/CMakeFiles/progress.marks"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/clean
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/preinstall
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/preinstall
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 projects/assignment-5/CMakeFiles/assignment-5.dir/rule:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/CMakeFiles/assignment-5.dir/rule
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 projects/assignment-5/CMakeFiles/assignment-5.dir/rule
 .PHONY : projects/assignment-5/CMakeFiles/assignment-5.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/rule
 
 # fast build rule for target.
 assignment-5/fast:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/build
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/build
 .PHONY : assignment-5/fast
 
 code/MathLib.o: code/MathLib.cpp.o
@@ -131,7 +131,7 @@ code/MathLib.o: code/MathLib.cpp.o
 
 # target to build an object file
 code/MathLib.cpp.o:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o
 .PHONY : code/MathLib.cpp.o
 
 code/MathLib.i: code/MathLib.cpp.i
@@ -140,7 +140,7 @@ code/MathLib.i: code/MathLib.cpp.i
 
 # target to preprocess a source file
 code/MathLib.cpp.i:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.i
 .PHONY : code/MathLib.cpp.i
 
 code/MathLib.s: code/MathLib.cpp.s
@@ -149,7 +149,7 @@ code/MathLib.s: code/MathLib.cpp.s
 
 # target to generate assembly for a file
 code/MathLib.cpp.s:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.s
 .PHONY : code/MathLib.cpp.s
 
 code/exampleapp.o: code/exampleapp.cc.o
@@ -158,7 +158,7 @@ code/exampleapp.o: code/exampleapp.cc.o
 
 # target to build an object file
 code/exampleapp.cc.o:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o
 .PHONY : code/exampleapp.cc.o
 
 code/exampleapp.i: code/exampleapp.cc.i
@@ -167,7 +167,7 @@ code/exampleapp.i: code/exampleapp.cc.i
 
 # target to preprocess a source file
 code/exampleapp.cc.i:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.i
 .PHONY : code/exampleapp.cc.i
 
 code/exampleapp.s: code/exampleapp.cc.s
@@ -176,7 +176,7 @@ code/exampleapp.s: code/exampleapp.cc.s
 
 # target to generate assembly for a file
 code/exampleapp.cc.s:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.s
 .PHONY : code/exampleapp.cc.s
 
 code/main.o: code/main.cc.o
@@ -185,7 +185,7 @@ code/main.o: code/main.cc.o
 
 # target to build an object file
 code/main.cc.o:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o
 .PHONY : code/main.cc.o
 
 code/main.i: code/main.cc.i
@@ -194,7 +194,7 @@ code/main.i: code/main.cc.i
 
 # target to preprocess a source file
 code/main.cc.i:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.i
 .PHONY : code/main.cc.i
 
 code/main.s: code/main.cc.s
@@ -203,8 +203,116 @@ code/main.s: code/main.cc.s
 
 # target to generate assembly for a file
 code/main.cc.s:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.s
 .PHONY : code/main.cc.s
+
+code/tinystr.o: code/tinystr.cpp.o
+
+.PHONY : code/tinystr.o
+
+# target to build an object file
+code/tinystr.cpp.o:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o
+.PHONY : code/tinystr.cpp.o
+
+code/tinystr.i: code/tinystr.cpp.i
+
+.PHONY : code/tinystr.i
+
+# target to preprocess a source file
+code/tinystr.cpp.i:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.i
+.PHONY : code/tinystr.cpp.i
+
+code/tinystr.s: code/tinystr.cpp.s
+
+.PHONY : code/tinystr.s
+
+# target to generate assembly for a file
+code/tinystr.cpp.s:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.s
+.PHONY : code/tinystr.cpp.s
+
+code/tinyxml.o: code/tinyxml.cpp.o
+
+.PHONY : code/tinyxml.o
+
+# target to build an object file
+code/tinyxml.cpp.o:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o
+.PHONY : code/tinyxml.cpp.o
+
+code/tinyxml.i: code/tinyxml.cpp.i
+
+.PHONY : code/tinyxml.i
+
+# target to preprocess a source file
+code/tinyxml.cpp.i:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.i
+.PHONY : code/tinyxml.cpp.i
+
+code/tinyxml.s: code/tinyxml.cpp.s
+
+.PHONY : code/tinyxml.s
+
+# target to generate assembly for a file
+code/tinyxml.cpp.s:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.s
+.PHONY : code/tinyxml.cpp.s
+
+code/tinyxmlerror.o: code/tinyxmlerror.cpp.o
+
+.PHONY : code/tinyxmlerror.o
+
+# target to build an object file
+code/tinyxmlerror.cpp.o:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o
+.PHONY : code/tinyxmlerror.cpp.o
+
+code/tinyxmlerror.i: code/tinyxmlerror.cpp.i
+
+.PHONY : code/tinyxmlerror.i
+
+# target to preprocess a source file
+code/tinyxmlerror.cpp.i:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.i
+.PHONY : code/tinyxmlerror.cpp.i
+
+code/tinyxmlerror.s: code/tinyxmlerror.cpp.s
+
+.PHONY : code/tinyxmlerror.s
+
+# target to generate assembly for a file
+code/tinyxmlerror.cpp.s:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.s
+.PHONY : code/tinyxmlerror.cpp.s
+
+code/tinyxmlparser.o: code/tinyxmlparser.cpp.o
+
+.PHONY : code/tinyxmlparser.o
+
+# target to build an object file
+code/tinyxmlparser.cpp.o:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o
+.PHONY : code/tinyxmlparser.cpp.o
+
+code/tinyxmlparser.i: code/tinyxmlparser.cpp.i
+
+.PHONY : code/tinyxmlparser.i
+
+# target to preprocess a source file
+code/tinyxmlparser.cpp.i:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.i
+.PHONY : code/tinyxmlparser.cpp.i
+
+code/tinyxmlparser.s: code/tinyxmlparser.cpp.s
+
+.PHONY : code/tinyxmlparser.s
+
+# target to generate assembly for a file
+code/tinyxmlparser.cpp.s:
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f projects/assignment-5/CMakeFiles/assignment-5.dir/build.make projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.s
+.PHONY : code/tinyxmlparser.cpp.s
 
 # Help Target
 help:
@@ -224,6 +332,18 @@ help:
 	@echo "... code/main.o"
 	@echo "... code/main.i"
 	@echo "... code/main.s"
+	@echo "... code/tinystr.o"
+	@echo "... code/tinystr.i"
+	@echo "... code/tinystr.s"
+	@echo "... code/tinyxml.o"
+	@echo "... code/tinyxml.i"
+	@echo "... code/tinyxml.s"
+	@echo "... code/tinyxmlerror.o"
+	@echo "... code/tinyxmlerror.i"
+	@echo "... code/tinyxmlerror.s"
+	@echo "... code/tinyxmlparser.o"
+	@echo "... code/tinyxmlparser.i"
+	@echo "... code/tinyxmlparser.s"
 .PHONY : help
 
 
@@ -235,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

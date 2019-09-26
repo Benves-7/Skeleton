@@ -55,6 +55,9 @@ namespace Example
 			std::shared_ptr<TextureResource> texture = std::make_shared<TextureResource>();
 			std::shared_ptr<ShaderObject> shader = std::make_shared<ShaderObject>();
 
+			skeleton.loadSkeleton("Unit_Footman.constants");
+
+
 			mesh->loadOBJ("lumberJack.obj");
 			mesh->setup();					//VAO
 			mesh->bindVertexbuffer();		//VBO
@@ -181,18 +184,49 @@ namespace Example
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 			this->window->Update();
 
-			float radius = 1.f;
-			float x = sin(glfwGetTime()) * radius;
-			float z = cos(glfwGetTime()) * radius;
-			float y = sin(glfwGetTime()) * radius;
+			glUseProgram(0);
+			auto viewMat = camera_.run();
+			viewMat.GetArr();
+            glLoadMatrixf((GLfloat*)viewMat.GetPointer());
+            glBegin(GL_LINES);
+            glColor3f(255, 0, 0);
 
-			for (GraphicsNode node : nodes)
-			{
-				node.getLightClass()->setLightPos(Vector4D(x, 2.f, z, 1.0));
-				node.setCamera(camera_);
-				node.draw();
-			}
+            for (int i = 0; i < skeleton.joints.size(); ++i)
+            {
+                if(skeleton.joints[i].parent == -1)
+                    continue;
+                else
+                {
+                    Vector4D a = skeleton.joints[i].worldspaceTransform.GetPositionVector();
+                    Vector4D b = skeleton.joints[skeleton.joints[i].parent].worldspaceTransform.GetPositionVector();
+                    glVertex3f(a[0],a[1],a[2]);
+                    glVertex3f(b[0],b[1],b[2]);
+                }
+            }
 
+            /*float radius = 1.f;
+            float x = sin(glfwGetTime()) * radius;
+            float z = cos(glfwGetTime()) * radius;
+            float y = sin(glfwGetTime());
+
+            for (GraphicsNode node : nodes)
+            {
+                node.getLightClass()->setLightPos(Vector4D(x, 2.f, z, 1.0));
+                node.getLightClass()->setLightColur('r', y);
+                node.setCamera(camera_);
+                node.draw();
+            }
+            */
+
+			glEnd();
+            for (int i = 0; i < skeleton.joints.size(); ++i)
+            {
+                glColor3f(0,1,0);
+                Vector4D b = skeleton.joints[i].worldspaceTransform.GetPositionVector();
+                glTranslatef(b[0],b[1],b[2]);
+                gluSphere(gluNewQuadric(), 0.05,20,20);
+                glTranslatef(-b[0], -b[1],-b[2]);
+            }
 			this->window->SwapBuffers();
 			rot = rot + 0.01;
 		}

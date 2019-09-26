@@ -9,7 +9,7 @@ FILE(GLOB assignment-5_shaders code/Shaders/*.shader)
 FILE(GLOB assignment-5_textures code/Texture/*.jpg)
 FILE(GLOB assignment-5_obj code/Obj/*.obj)
 
-SET(files_assignment-5 ${assignment-5_headers} ${assignment-5_sources})
+SET(files_assignment-5 ${assignment-5_headers} ${assignment-5_sources} code/Skeleton.h)
 SOURCE_GROUP("assignment-5" FILES ${files_assignment-5})
 
 ADD_EXECUTABLE(assignment-5 ${files_assignment-5})

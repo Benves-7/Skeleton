@@ -58,7 +58,7 @@ private:
 
 	// Perspectiv variables
 	Matrix4D perspectiveProjection;
-	float n = 0.1, f = 10000, t = 0.1, b = -0.1, r = 0.1, l = -0.1;
+	float near = 0.1, far = 10000, top = 0.1, bot = -0.1, right = 0.1, left = -0.1;
 };
 
 inline Camera::Camera()
@@ -71,11 +71,10 @@ inline Camera::~Camera()
 inline void Camera::setup()
 {
 	perspectiveProjection = Matrix4D
-	(
-		2 * n / (r - l), 0, 0, 0,
-		0, 2 * n / (t - b), 0, 0,
-		((r + l) / (r - l)), ((t + b) / (t - b)), -((f + n) / (f - n)), -1,
-		0, 0, -((2 * f*n) / (f - n)), 0
+	((2 * near) / (right - left), 0, 0, 0,
+		0, 2 * near / (top - bot), 0, 0,
+		((right + left) / (right - left)), ((top + bot) / (top - bot)), -((far + near) / (far - near)), -1,
+		0, 0, -((2 * far*near) / (far - near)), 0
 	);
 	perspectiveProjection.TransposeThis();
 	
@@ -97,6 +96,9 @@ inline Matrix4D Camera::run()
 	cameraUp = Vector4D::cross(cameraDirection, cameraRight);
 
 	view = Matrix4D::lookAt(cameraPos, cameraTarget, cameraUp);
-	return perspectiveProjection * view;
+
+	Matrix4D ret = (perspectiveProjection * view);
+	ret.TransposeThis();
+	return ret;
 
 }

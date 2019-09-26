@@ -48,10 +48,10 @@ RM = /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benves-7/Documents/School/lab-env
+CMAKE_SOURCE_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benves-7/Documents/School/lab-env/Build
+CMAKE_BINARY_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -E cmake_progress_start /home/benves-7/Documents/School/lab-env/Build/CMakeFiles /home/benves-7/Documents/School/lab-env/Build/exts/glew/CMakeFiles/progress.marks
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benves-7/Documents/School/lab-env/Build/CMakeFiles 0
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/exts/glew/CMakeFiles/progress.marks"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/clean
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/preinstall
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/preinstall
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 exts/glew/CMakeFiles/glew.dir/rule:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/CMakeFiles/glew.dir/rule
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f CMakeFiles/Makefile2 exts/glew/CMakeFiles/glew.dir/rule
 .PHONY : exts/glew/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ glew: exts/glew/CMakeFiles/glew.dir/rule
 
 # fast build rule for target.
 glew/fast:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/build
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/build
 .PHONY : glew/fast
 
 src/glew.o: src/glew.c.o
@@ -131,7 +131,7 @@ src/glew.o: src/glew.c.o
 
 # target to build an object file
 src/glew.c.o:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/src/glew.c.o
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/src/glew.c.o
 .PHONY : src/glew.c.o
 
 src/glew.i: src/glew.c.i
@@ -140,7 +140,7 @@ src/glew.i: src/glew.c.i
 
 # target to preprocess a source file
 src/glew.c.i:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/src/glew.c.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/src/glew.c.i
 .PHONY : src/glew.c.i
 
 src/glew.s: src/glew.c.s
@@ -149,7 +149,7 @@ src/glew.s: src/glew.c.s
 
 # target to generate assembly for a file
 src/glew.c.s:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/src/glew.c.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/src/glew.c.s
 .PHONY : src/glew.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

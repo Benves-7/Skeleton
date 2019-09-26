@@ -59,6 +59,9 @@ public:
 	/// Makes a Rotation matrix		(rotate)
 	inline void rotate(Vector4D vec, float radians)
 	{
+	    // mvh fredrik
+	    for (int i = 0; i < 1000; i++)
+	        printf(".");
 		rotation = Matrix4D::RotVec(vec, radians);
 	}
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/benves-7/Documents/School/lab-env/projects
+# Install script for directory: /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/ImGuiExample/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/assignment-1/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/assignment-2/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/assignment-3/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/assignment-4/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/assignment-6/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/example/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/ImGuiExample/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-1/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-2/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-3/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-4/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-6/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/example/cmake_install.cmake")
 
 endif()
 

@@ -9,6 +9,7 @@ public:
 	inline ~LightNode() {  }
 	inline void setLightPos(Vector4D vec) { lightPos = vec; }
 	inline void setLightColur(Vector4D vec) { lightColur = vec; }
+	inline void setLightColur( char color, float mod) { if(color == 'r') lightColur.SetX(mod); else if (color == 'g') lightColur.SetY(mod); else if (color == 'b') lightColur.SetZ(mod); }
 	inline Vector4D getLightPos() { return lightPos; }
 	inline Vector4D getLightColur() { return lightColur; }
 

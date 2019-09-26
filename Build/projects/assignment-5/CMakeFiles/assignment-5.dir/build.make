@@ -43,10 +43,10 @@ RM = /home/benves-7/Documents/Clion/clion-2019.2.1/bin/cmake/linux/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benves-7/Documents/School/lab-env
+CMAKE_SOURCE_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benves-7/Documents/School/lab-env/Build
+CMAKE_BINARY_DIR = "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build"
 
 # Include any dependencies generated for this target.
 include projects/assignment-5/CMakeFiles/assignment-5.dir/depend.make
@@ -59,48 +59,104 @@ include projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o: ../projects/assignment-5/code/MathLib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/MathLib.cpp.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/MathLib.cpp.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.cpp"
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/MathLib.cpp.i"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.cpp > CMakeFiles/assignment-5.dir/code/MathLib.cpp.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.cpp" > CMakeFiles/assignment-5.dir/code/MathLib.cpp.i
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/MathLib.cpp.s"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.cpp -o CMakeFiles/assignment-5.dir/code/MathLib.cpp.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.cpp" -o CMakeFiles/assignment-5.dir/code/MathLib.cpp.s
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/exampleapp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/exampleapp.cc.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/exampleapp.cc.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.cc"
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/exampleapp.cc.i"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.cc > CMakeFiles/assignment-5.dir/code/exampleapp.cc.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.cc" > CMakeFiles/assignment-5.dir/code/exampleapp.cc.i
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/exampleapp.cc.s"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.cc -o CMakeFiles/assignment-5.dir/code/exampleapp.cc.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.cc" -o CMakeFiles/assignment-5.dir/code/exampleapp.cc.s
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/main.cc.o -c /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/main.cc.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/main.cc"
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/main.cc.i"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/main.cc > CMakeFiles/assignment-5.dir/code/main.cc.i
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/main.cc" > CMakeFiles/assignment-5.dir/code/main.cc.i
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/main.cc.s"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benves-7/Documents/School/lab-env/projects/assignment-5/code/main.cc -o CMakeFiles/assignment-5.dir/code/main.cc.s
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/main.cc" -o CMakeFiles/assignment-5.dir/code/main.cc.s
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o: ../projects/assignment-5/code/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/tinystr.cpp.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.cpp"
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/tinystr.cpp.i"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.cpp" > CMakeFiles/assignment-5.dir/code/tinystr.cpp.i
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/tinystr.cpp.s"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.cpp" -o CMakeFiles/assignment-5.dir/code/tinystr.cpp.s
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o: ../projects/assignment-5/code/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.cpp"
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/tinyxml.cpp.i"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.cpp" > CMakeFiles/assignment-5.dir/code/tinyxml.cpp.i
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/tinyxml.cpp.s"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.cpp" -o CMakeFiles/assignment-5.dir/code/tinyxml.cpp.s
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o: ../projects/assignment-5/code/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlerror.cpp"
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.i"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlerror.cpp" > CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.i
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.s"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlerror.cpp" -o CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.s
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o: projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o: ../projects/assignment-5/code/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o -c "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlparser.cpp"
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.i"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlparser.cpp" > CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.i
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.s"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlparser.cpp" -o CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.s
 
 # Object files for target assignment-5
 assignment__5_OBJECTS = \
 "CMakeFiles/assignment-5.dir/code/MathLib.cpp.o" \
 "CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" \
-"CMakeFiles/assignment-5.dir/code/main.cc.o"
+"CMakeFiles/assignment-5.dir/code/main.cc.o" \
+"CMakeFiles/assignment-5.dir/code/tinystr.cpp.o" \
+"CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o" \
+"CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o" \
+"CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o"
 
 # External object files for target assignment-5
 assignment__5_EXTERNAL_OBJECTS =
@@ -108,6 +164,10 @@ assignment__5_EXTERNAL_OBJECTS =
 ../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o
 ../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o
 ../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o
+../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o
+../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o
+../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o
+../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o
 ../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/build.make
 ../bin/assignment-5: engine/core/libcore.a
 ../bin/assignment-5: engine/render/librender.a
@@ -127,8 +187,8 @@ assignment__5_EXTERNAL_OBJECTS =
 ../bin/assignment-5: exts/libimgui.a
 ../bin/assignment-5: exts/libnanovg.a
 ../bin/assignment-5: projects/assignment-5/CMakeFiles/assignment-5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benves-7/Documents/School/lab-env/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/assignment-5"
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-5.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../bin/assignment-5"
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projects/assignment-5/CMakeFiles/assignment-5.dir/build: ../bin/assignment-5
@@ -136,10 +196,10 @@ projects/assignment-5/CMakeFiles/assignment-5.dir/build: ../bin/assignment-5
 .PHONY : projects/assignment-5/CMakeFiles/assignment-5.dir/build
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/clean:
-	cd /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 && $(CMAKE_COMMAND) -P CMakeFiles/assignment-5.dir/cmake_clean.cmake
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" && $(CMAKE_COMMAND) -P CMakeFiles/assignment-5.dir/cmake_clean.cmake
 .PHONY : projects/assignment-5/CMakeFiles/assignment-5.dir/clean
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/depend:
-	cd /home/benves-7/Documents/School/lab-env/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benves-7/Documents/School/lab-env /home/benves-7/Documents/School/lab-env/projects/assignment-5 /home/benves-7/Documents/School/lab-env/Build /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5 /home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton " "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5" "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5/CMakeFiles/assignment-5.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : projects/assignment-5/CMakeFiles/assignment-5.dir/depend
 

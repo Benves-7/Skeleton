@@ -15,11 +15,14 @@ projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../proje
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/GraphicsNode.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/MathLib.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/ShaderObject.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/Skeleton.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/exampleapp.cc
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/exampleapp.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/light.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/meshresource.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/textureresource.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/tinystr.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o: ../projects/assignment-5/code/tinyxml.h
 
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../engine/config.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../engine/core/app.h
@@ -32,9 +35,27 @@ projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/as
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/GraphicsNode.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/MathLib.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/ShaderObject.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/Skeleton.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/exampleapp.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/light.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/main.cc
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/meshresource.h
 projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/textureresource.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/tinystr.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o: ../projects/assignment-5/code/tinyxml.h
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o: ../projects/assignment-5/code/tinystr.cpp
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinystr.cpp.o: ../projects/assignment-5/code/tinystr.h
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o: ../projects/assignment-5/code/tinystr.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o: ../projects/assignment-5/code/tinyxml.cpp
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxml.cpp.o: ../projects/assignment-5/code/tinyxml.h
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o: ../projects/assignment-5/code/tinystr.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o: ../projects/assignment-5/code/tinyxml.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlerror.cpp.o: ../projects/assignment-5/code/tinyxmlerror.cpp
+
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o: ../projects/assignment-5/code/tinystr.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o: ../projects/assignment-5/code/tinyxml.h
+projects/assignment-5/CMakeFiles/assignment-5.dir/code/tinyxmlparser.cpp.o: ../projects/assignment-5/code/tinyxmlparser.cpp
 

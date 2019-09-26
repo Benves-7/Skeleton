@@ -6,5 +6,5 @@ C_FLAGS = -g -fPIC   -Wall
 
 C_DEFINES = -DGLEW_STATIC -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/benves-7/Documents/School/lab-env/exts/glfw/include -I/home/benves-7/Documents/School/lab-env/exts/glfw/src -I/home/benves-7/Documents/School/lab-env/Build/exts/glfw/src 
+C_INCLUDES = -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/include" -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/src" -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/exts/glfw/src" 
 

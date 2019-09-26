@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/home/benves-7/Documents/School/lab-env/exts/glew/include 
+C_INCLUDES = -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glew/include" 
 

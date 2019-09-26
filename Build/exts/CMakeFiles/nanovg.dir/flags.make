@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/home/benves-7/Documents/School/lab-env/exts/nanovg/src -I/home/benves-7/Documents/School/lab-env/exts/glew/include -I/home/benves-7/Documents/School/lab-env/exts/glfw/include -I/home/benves-7/Documents/School/lab-env/exts/imgui -I/home/benves-7/Documents/School/lab-env/exts/imgui/examples/opengl3_example 
+C_INCLUDES = -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/nanovg/src" -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glew/include" -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/include" -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/imgui" -I"/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/imgui/examples/opengl3_example" 
 

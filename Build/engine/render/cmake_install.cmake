@@ -1,4 +1,4 @@
-# Install script for directory: /home/benves-7/Documents/School/lab-env/engine/render
+# Install script for directory: /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/render
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

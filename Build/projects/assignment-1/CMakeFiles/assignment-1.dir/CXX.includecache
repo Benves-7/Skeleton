@@ -92,7 +92,7 @@ GL/glu.h
 
 ../exts/nanovg/src/nanovg.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
 iostream
 -
 string
@@ -100,31 +100,31 @@ string
 math.h
 -
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/camera.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/camera.h
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/dielectric.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/dielectric.h
 material.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/material.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.cc
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.cc
 exampleapp.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.h
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
 hitable_list.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable_list.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable_list.h
 sphere.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/sphere.h
 lambertian.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/lambertian.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/lambertian.h
 camera.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/camera.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/camera.h
 metal.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/metal.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/metal.h
 dielectric.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/dielectric.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/dielectric.h
 cstring
 -
 vector
@@ -132,45 +132,51 @@ vector
 chrono
 -
 GLFW/glfw3.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/GLFW/glfw3.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/GLFW/glfw3.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.h
 core/app.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/core/app.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/core/app.h
 render/window.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/render/window.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/render/window.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable.h
 ray.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/ray.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/ray.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable_list.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable_list.h
 hitable.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/lambertian.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/lambertian.h
 material.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/material.h
 sphere.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/sphere.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h
-hitable.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/main.cc
+exampleapp.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.h
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/metal.h
-material.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h
-
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/ray.h
-MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
-
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/material.h
 hitable.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable.h
+MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
+
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/metal.h
 material.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/material.h
+
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/ray.h
+MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
+
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/sphere.h
+hitable.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable.h
+material.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/material.h
 

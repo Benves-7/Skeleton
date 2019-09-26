@@ -8,154 +8,191 @@
 		<Option virtualFolders="CMake Files\;CMake Files\exts\;CMake Files\exts\glfw\;CMake Files\exts\glfw\CMake\;CMake Files\exts\glfw\CMake\modules\;CMake Files\exts\glfw\src\;CMake Files\exts\glew\;CMake Files\projects\;CMake Files\projects\ImGuiExample\;CMake Files\projects\assignment-1\;CMake Files\projects\assignment-2\;CMake Files\projects\assignment-3\;CMake Files\projects\assignment-4\;CMake Files\projects\assignment-5\;CMake Files\projects\assignment-6\;CMake Files\projects\example\;CMake Files\engine\;CMake Files\engine\core\;CMake Files\engine\render\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5"/>
+				<Option working_dir="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/assignment-5"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-5">
-				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
+				<Option output="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /bin/assignment-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/engine"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/glew/include"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/glfw/include"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/imgui"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/imgui/examples/opengl3_example"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/nanovg/src"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glew/include"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/include"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/imgui"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/imgui/examples/opengl3_example"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/nanovg/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 assignment-5"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 assignment-5"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="assignment-5/fast">
-				<Option output="/home/benves-7/Documents/School/lab-env/bin/assignment-5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/lab-env/bin&gt;"/>
+				<Option output="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /bin/assignment-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /bin&gt;"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/engine"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/glew/include"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/glfw/include"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/imgui"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/imgui/examples/opengl3_example"/>
-					<Add directory="/home/benves-7/Documents/School/lab-env/exts/nanovg/src"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glew/include"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/include"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/imgui"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/imgui/examples/opengl3_example"/>
+					<Add directory="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/nanovg/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 assignment-5/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/benves-7/Documents/School/lab-env/Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 assignment-5/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/benves-7/Documents/School/S0008E/S0008E\ -\ Assignment\ 2\ -\ Skeleton\ /Build/projects/assignment-5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/Camera.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/Camera.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/GraphicsNode.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/GraphicsNode.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.cpp">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.cpp">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/ShaderObject.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/ShaderObject.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.cc">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/Skeleton.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.cc">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/light.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/main.cc">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/light.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/meshresource.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/main.cc">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/textureresource.h">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/meshresource.h">
 			<Option target="assignment-5"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/textureresource.h">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.cpp">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.h">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.cpp">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.h">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlerror.cpp">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxmlparser.cpp">
+			<Option target="assignment-5"/>
+		</Unit>
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\exts\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glfw/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\exts\glfw\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glfw/CMake/modules/FindVulkan.cmake">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/CMake/modules/FindVulkan.cmake">
 			<Option virtualFolder="CMake Files\exts\glfw\CMake\modules\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glfw/src/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\exts\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glfw/src/glfw3.pc.in">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\exts\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\exts\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glfw/src/glfw_config.h.in">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\exts\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/exts/glew/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts/glew/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\exts\glew\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/ImGuiExample/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/ImGuiExample/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\ImGuiExample\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-1/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\assignment-1\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-2/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\assignment-2\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-3/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\assignment-3\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-4/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\assignment-4\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-5/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\assignment-5\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/assignment-6/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\assignment-6\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/projects/example/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/example/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\projects\example\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/engine/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\engine\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/engine/core/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/core/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\engine\core\"/>
 		</Unit>
-		<Unit filename="/home/benves-7/Documents/School/lab-env/engine/render/CMakeLists.txt">
+		<Unit filename="/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /engine/render/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\engine\render\"/>
 		</Unit>
 	</Project>

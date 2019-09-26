@@ -120,31 +120,31 @@ intrin.h
 arm_neon.h
 -
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/Camera.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/Camera.h
 config.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/config.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/config.h
 exampleapp.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.h
 cstring
 -
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/GraphicsNode.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/GraphicsNode.h
 light.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/light.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/light.h
 meshresource.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/meshresource.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/meshresource.h
 textureresource.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/textureresource.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/textureresource.h
 ShaderObject.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/ShaderObject.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/ShaderObject.h
 Camera.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/Camera.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/Camera.h
 memory
 -
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h
 iostream
 -
 string
@@ -152,11 +152,11 @@ string
 math.h
 -
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/ShaderObject.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/ShaderObject.h
 string
 -
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h
 GL/glew.h
 -
 iostream
@@ -164,35 +164,41 @@ iostream
 fstream
 -
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.cc
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/Skeleton.h
+tinyxml.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.h
+
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.cc
 config.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/config.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/config.h
 exampleapp.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.h
 cstring
 -
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/exampleapp.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/exampleapp.h
 core/app.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/core/app.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/core/app.h
 render/window.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/render/window.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/render/window.h
 GraphicsNode.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/GraphicsNode.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/GraphicsNode.h
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h
 meshresource.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/meshresource.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/meshresource.h
 textureresource.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/textureresource.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/textureresource.h
 ShaderObject.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/ShaderObject.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/ShaderObject.h
+Skeleton.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/Skeleton.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/light.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/light.h
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/meshresource.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/meshresource.h
 core/app.h
 -
 string.h
@@ -202,11 +208,37 @@ vector
 map
 -
 MathLib.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/MathLib.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/MathLib.h
 
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/textureresource.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/textureresource.h
 core/app.h
 -
 stb_image.h
-/home/benves-7/Documents/School/lab-env/projects/assignment-5/code/stb_image.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/stb_image.h
+
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.h
+assert.h
+-
+string.h
+-
+
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinyxml.h
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+string
+-
+iostream
+-
+sstream
+-
+tinystr.h
+/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-5/code/tinystr.h
 

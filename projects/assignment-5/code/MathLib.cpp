@@ -647,32 +647,6 @@ Matrix4D Matrix4D::RotVec(Vector4D Vec, float degrees)
 	);
 }
 
-///Transposes the current Matrix, NOT A NEW ONE
-void Matrix4D::TransposeThis()
-{
-	Matrix4D temp = Matrix4D();
-	temp = *this;
-
-	this->matrix[0][1] = temp.matrix[1][0]; // 1
-	this->matrix[1][0] = temp.matrix[0][1]; // 2
-
-	this->matrix[0][2] = temp.matrix[2][0]; // 3
-	this->matrix[2][0] = temp.matrix[0][2]; // 4
-
-	this->matrix[1][2] = temp.matrix[2][1]; // 5
-	this->matrix[2][1] = temp.matrix[1][2]; // 6
-
-	this->matrix[0][3] = temp.matrix[3][0]; // 7
-	this->matrix[3][0] = temp.matrix[0][3]; // 8
-
-	this->matrix[1][3] = temp.matrix[3][1]; // 9
-	this->matrix[3][1] = temp.matrix[1][3]; // 10
-
-	this->matrix[2][3] = temp.matrix[3][2]; // 11
-	this->matrix[3][2] = temp.matrix[2][3]; // 12
-
-	temp.~Matrix4D();
-}
 ///inverses the current Matrix, NOT A NEW ONE
 void Matrix4D::InversThis()
 {
@@ -831,12 +805,6 @@ void Matrix4D::GetArr()
 float* Matrix4D::GetPointer()
 {
 	return arr;
-}
-
-Matrix4D Matrix4D::GetPositionMatrix(Vector4D vec)
-{
-	Matrix4D temp(1, 0, 0, vec.GetX(), 0, 1, 0, vec.GetY(), 0, 0, 1, vec.GetZ(), 0, 0, 0, 1);
-	return temp;
 }
 
 ///Converts arr to matrix

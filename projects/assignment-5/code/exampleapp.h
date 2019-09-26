@@ -14,6 +14,7 @@
 #include "meshresource.h"
 #include "textureresource.h"
 #include "ShaderObject.h"
+#include "Skeleton.h"
 
 namespace Example
 {
@@ -43,6 +44,7 @@ namespace Example
 		vector<GraphicsNode> nodes;
 		Camera camera_;
 		vector<shared_ptr<LightNode>> lights;
+		Skeleton skeleton;
 
 	};
 }

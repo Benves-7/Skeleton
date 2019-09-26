@@ -8,18 +8,18 @@ projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o
  ../exts/glew/include/GL/glew.h
  ../exts/glfw/include/GLFW/glfw3.h
  ../exts/nanovg/src/nanovg.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/camera.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/dielectric.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.cc
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/hitable_list.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/lambertian.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/material.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/metal.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/ray.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/sphere.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/camera.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/dielectric.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.cc
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/hitable_list.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/lambertian.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/material.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/metal.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/ray.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/sphere.h
 projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o
  ../engine/config.h
  ../engine/core/app.h
@@ -27,6 +27,6 @@ projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o
  ../exts/glew/include/GL/glew.h
  ../exts/glfw/include/GLFW/glfw3.h
  ../exts/nanovg/src/nanovg.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/MathLib.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/exampleapp.h
- /home/benves-7/Documents/School/lab-env/projects/assignment-1/code/main.cc
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/MathLib.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/exampleapp.h
+ /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /projects/assignment-1/code/main.cc

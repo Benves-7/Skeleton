@@ -1,4 +1,4 @@
-# Install script for directory: /home/benves-7/Documents/School/lab-env
+# Install script for directory: /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton 
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benves-7/Documents/School/lab-env/Build/exts/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/engine/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/projects/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/exts/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/engine/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/projects/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/benves-7/Documents/School/lab-env/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

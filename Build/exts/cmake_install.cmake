@@ -1,4 +1,4 @@
-# Install script for directory: /home/benves-7/Documents/School/lab-env/exts
+# Install script for directory: /home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /exts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benves-7/Documents/School/lab-env/Build/exts/glew/cmake_install.cmake")
-  include("/home/benves-7/Documents/School/lab-env/Build/exts/glfw/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/exts/glew/cmake_install.cmake")
+  include("/home/benves-7/Documents/School/S0008E/S0008E - Assignment 2 - Skeleton /Build/exts/glfw/cmake_install.cmake")
 
 endif()
 
