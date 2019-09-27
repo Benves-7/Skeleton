@@ -72,20 +72,6 @@ public:
         Matrix4D temp; temp.GetPositionMatrix(translation);
         joints[jointIndex].worldspaceTransform = joints[joints[jointIndex].parent].worldspaceTransform * joints[jointIndex].transform * temp;
         joints[jointIndex].changed = true;
-        // saves the joint index.
-        vector<int> indexes; indexes.push_back(jointIndex);
-        /*while (indexes.size() > 0)
-        {
-            for (int i = 0; i < joints.size(); ++i)
-            {
-                if (joints[i].parent == indexes.front())
-                {
-                    joints[i].worldspaceTransform = joints[indexes.front()].worldspaceTransform * joints[i].transform;
-                    indexes.push_back(i);
-                }
-            }
-            indexes.erase(indexes.begin());
-        }*/
     }
     inline void rotateJoint(int jointIndex, Vector4D rotation)
     {
@@ -93,20 +79,6 @@ public:
         Matrix4D temp; temp.GetRotationFromQuaternian(rotation);
         joints[jointIndex].worldspaceTransform = joints[joints[jointIndex].parent].worldspaceTransform * joints[jointIndex].transform * temp;
         joints[jointIndex].changed = true;
-        // saves the joint index.
-        vector<int> indexes; indexes.push_back(jointIndex);
-        /*while (indexes.size() > 0)
-        {
-            for (int i = 0; i < joints.size(); ++i)
-            {
-                if (joints[i].parent == indexes.front())
-                {
-                    joints[i].worldspaceTransform = joints[indexes.front()].worldspaceTransform * joints[i].transform;
-                    indexes.push_back(i);
-                }
-            }
-            indexes.erase(indexes.begin());
-        }*/
     }
     inline void update()
     {

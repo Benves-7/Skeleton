@@ -26,12 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="08ce147d-99ad-4cdb-b0cb-bbeadeec7b53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/MathLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/MathLib.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/Skeleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/Skeleton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../S0008E - Assignment - Path tracing /Path tracing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab-env" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
@@ -185,7 +182,7 @@
       <workItem from="1568986694278" duration="2619000" />
       <workItem from="1569225711449" duration="13367000" />
       <workItem from="1569398337745" duration="268000" />
-      <workItem from="1569398617502" duration="42696000" />
+      <workItem from="1569398617502" duration="44496000" />
     </task>
     <servers />
   </component>
