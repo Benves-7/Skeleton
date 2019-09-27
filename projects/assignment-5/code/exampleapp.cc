@@ -172,7 +172,7 @@ namespace Example
 		return false;
 	}
 
-	//------------------------------------------------------------------------------
+    //------------------------------------------------------------------------------
 	/**
 	*/
 	void
@@ -181,16 +181,23 @@ namespace Example
 		float rot = 0;
 		while (this->window->IsOpen())
 		{
+		    // create movement in a joint and all children to that joint.
+            skeleton.translateJoint(2,Vector4D(sin(rot)/10,0,0));
+            skeleton.rotateJoint(6, Vector4D(0,0,-0.7 + sin(rot*4)/10));
+            skeleton.update();
+
+		    // entire frame work, window update.
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 			this->window->Update();
 
+			// using default program, making a fast camera view matrix.
 			glUseProgram(0);
 			auto viewMat = camera_.run();
 			viewMat.GetArr();
             glLoadMatrixf((GLfloat*)viewMat.GetPointer());
+            // drawing lines between joints.
             glBegin(GL_LINES);
             glColor3f(255, 0, 0);
-
             for (int i = 0; i < skeleton.joints.size(); ++i)
             {
                 if(skeleton.joints[i].parent == -1)
@@ -203,22 +210,8 @@ namespace Example
                     glVertex3f(b[0],b[1],b[2]);
                 }
             }
-
-            /*float radius = 1.f;
-            float x = sin(glfwGetTime()) * radius;
-            float z = cos(glfwGetTime()) * radius;
-            float y = sin(glfwGetTime());
-
-            for (GraphicsNode node : nodes)
-            {
-                node.getLightClass()->setLightPos(Vector4D(x, 2.f, z, 1.0));
-                node.getLightClass()->setLightColur('r', y);
-                node.setCamera(camera_);
-                node.draw();
-            }
-            */
-
 			glEnd();
+            // drawing the joints. translating pos between the point and back to (0,0,0) each time.
             for (int i = 0; i < skeleton.joints.size(); ++i)
             {
                 glColor3f(0,1,0);
@@ -228,7 +221,7 @@ namespace Example
                 glTranslatef(-b[0], -b[1],-b[2]);
             }
 			this->window->SwapBuffers();
-			rot = rot + 0.01;
+			rot = rot + 0.1;
 		}
 	}
 

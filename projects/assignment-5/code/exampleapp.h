@@ -30,6 +30,8 @@ namespace Example
 		void setNodeClass(std::shared_ptr<GraphicsNode> node);
 		GraphicsNode* getNodeClass();
 
+        void TranslateJoint(int jointIndex, Vector4D translation);
+        void RotateJoint(int jointIndex, Vector4D translation);
 		/// open app
 		bool Open();
 		/// run app

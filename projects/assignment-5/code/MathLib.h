@@ -313,6 +313,7 @@ public:
                             0,           0,           0, 1);
     };
 
+
 	static Matrix4D RotVec(Vector4D Vec, float degrees);			// Makes a rotation matrix around a vector.
 	static Matrix4D RotX(float degrees);					// Makes a rotation matrix in the X-axis
 	static Matrix4D RotY(float degrees);					// Makes a rotation matrix in the Y-axis

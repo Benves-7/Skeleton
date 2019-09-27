@@ -25,236 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ce147d-99ad-4cdb-b0cb-bbeadeec7b53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/assignment-5/code/Skeleton.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/__/config.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/__/config.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/app.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/app.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/CMakeFiles/core.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/core/libcore.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/core/libcore.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/__/config.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/__/config.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/window.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/CMakeFiles/render.dir/window.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/engine/render/librender.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/engine/render/librender.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/imgui.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/CMakeFiles/nanovg.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/src/glew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/CMakeFiles/glew.dir/src/glew.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/glew.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/glew.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glew/libglew.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glew/libglew.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/GLFW.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/GLFW.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/context.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/init.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/init.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/input.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/input.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/window.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/window.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/glfw/src/libglfw3.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/glfw/src/libglfw3.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/libimgui.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/libimgui.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/exts/libnanovg.a" beforeDir="false" afterPath="$PROJECT_DIR$/Build/exts/libnanovg.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/gscept_lab_env.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/gscept_lab_env.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/ImGuiExample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/ImGuiExample.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/ImGuiExample/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/ImGuiExample/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/exampleapp.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/code/main.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/CMakeFiles/assignment-1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/assignment-1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/assignment-1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-1/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-1/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/MathLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/MathLib.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/exampleapp.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/main.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/meshresource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/meshresource.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/textureresource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/code/textureresource.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/CMakeFiles/assignment-2.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/assignment-2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/assignment-2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-2/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/MathLib.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/meshresource.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/textureresource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/code/textureresource.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/CMakeFiles/assignment-3.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/assignment-3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/assignment-3.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-3/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-3/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/code/MathLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/code/MathLib.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/code/exampleapp.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/code/main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/code/main.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/CMakeFiles/assignment-4.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/assignment-4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/assignment-4.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-4/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-4/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/MathLib.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/exampleapp.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/code/main.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/assignment-5.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Obj/Rigged Hand.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Obj/bugatti.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Obj/tractor.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Texture/HAND_C.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Texture/assignment-6 (1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Texture/container.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/Texture/tractor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/assignment-5.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-5/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/fs.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/lumberJack.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/lumberJack_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/lumberJack_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-5/vs.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/CMakeFiles/assignment-6.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/assignment-6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/assignment-6.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/assignment-6/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/assignment-6/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/CMakeFiles/example.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/projects/example/example.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Build/projects/example/example.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/Camera.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/MathLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/MathLib.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/MathLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/MathLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/Skeleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/Skeleton.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/exampleapp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/light.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/light.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-5/code/meshresource.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-5/code/meshresource.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/assignment-6/code/MathLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/projects/assignment-6/code/MathLib.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -408,7 +185,7 @@
       <workItem from="1568986694278" duration="2619000" />
       <workItem from="1569225711449" duration="13367000" />
       <workItem from="1569398337745" duration="268000" />
-      <workItem from="1569398617502" duration="32498000" />
+      <workItem from="1569398617502" duration="42696000" />
     </task>
     <servers />
   </component>
@@ -441,11 +218,6 @@
           <url>file://$PROJECT_DIR$/projects/assignment-5/code/exampleapp.h</url>
           <line>8</line>
           <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/projects/assignment-5/code/exampleapp.cc</url>
-          <line>189</line>
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
